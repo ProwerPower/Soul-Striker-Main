@@ -1,0 +1,818 @@
+﻿Log file open, 03/08/17 23:02:05
+LogInit:Display: Running engine for game: SoulStriker
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(82534280) SRandInit(82534281).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076674
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.09-04.02.05:828][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.09-04.02.05:828][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.09-04.02.05:839][  0]LogInit: Computer: MSI
+[2017.03.09-04.02.05:839][  0]LogInit: User: armorias
+[2017.03.09-04.02.05:839][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.09-04.02.05:839][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2017.03.09-04.02.05:840][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.03.09-04.02.05:840][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-04.02.05:840][  0]LogMemory: Process Physical Memory: 192.00 MB used, 192.00 MB peak
+[2017.03.09-04.02.05:840][  0]LogMemory: Process Virtual Memory: 195.27 MB used, 195.27 MB peak
+[2017.03.09-04.02.05:840][  0]LogMemory: Physical Memory: 7447.98 MB used, 12166.60 MB total
+[2017.03.09-04.02.05:840][  0]LogMemory: Virtual Memory: 553.60 MB used, 134217728.00 MB total
+[2017.03.09-04.02.05:870][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.09-04.02.06:462][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.09-04.02.07:064][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.03.09-04.02.07:064][  0]LogD3D11RHI:       2018/0/6083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.09-04.02.07:071][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.03.09-04.02.07:071][  0]LogD3D11RHI:       128/0/6083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.09-04.02.07:073][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.09-04.02.07:073][  0]LogD3D11RHI:       0/0/6083 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.09-04.02.07:073][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.09-04.02.07:079][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.09-04.02.07:079][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.03.09-04.02.07:079][  0]LogWindows: EnumDisplayDevices:
+[2017.03.09-04.02.07:079][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2017.03.09-04.02.07:079][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.03.09-04.02.07:080][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.09-04.02.07:080][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.09-04.02.07:080][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.03.09-04.02.07:080][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.09-04.02.07:080][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.09-04.02.07:080][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.09-04.02.07:625][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.09-04.02.07:661][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.09-04.02.07:662][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Intermediate/Shaders/WorkingDirectory/12080/).
+[2017.03.09-04.02.07:662][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/armorias/AppData/Local/Temp/UnrealShaderWorkingDir/FA3E2F0D449979241EF4B2A1EAB8125A/'.
+[2017.03.09-04.02.07:662][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.09-04.02.08:603][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.09-04.02.08:613][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.09-04.02.08:623][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.09-04.02.08:634][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.09-04.02.08:642][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.09-04.02.08:652][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.09-04.02.08:659][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.09-04.02.08:667][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.09-04.02.08:674][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.09-04.02.08:682][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.09-04.02.08:690][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.09-04.02.08:705][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.09-04.02.08:705][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.09-04.02.08:706][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.09-04.02.08:727][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.09-04.02.08:735][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.09-04.02.08:742][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.09-04.02.08:751][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.09-04.02.08:759][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.09-04.02.08:759][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.09-04.02.08:834][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.09-04.02.08:885][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/armorias/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.09-04.02.08:885][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/armorias/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.03.09-04.02.08:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.09-04.02.08:885][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.09-04.02.08:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.09-04.02.08:885][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.09-04.02.08:903][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.09-04.02.08:916][  0]LogDerivedDataCache: Using Local data cache path C:/Users/armorias/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.09-04.02.09:092][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.09-04.02.09:092][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.09-04.02.09:257][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.09-04.02.09:257][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.09-04.02.09:257][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.09-04.02.09:503][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.03.09-04.02.09:540][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.034720 seconds
+[2017.03.09-04.02.09:546][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.03.09-04.02.09:546][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.03.09-04.02.09:546][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.09-04.02.09:553][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.09-04.02.09:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.09-04.02.09:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.09-04.02.10:357][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.03.09-04.02.10:366][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.09-04.02.10:589][  0]SourceControl: Info Source control is disabled
+[2017.03.09-04.02.10:590][  0]SourceControl: Info Source control is disabled
+[2017.03.09-04.02.10:598][  0]SourceControl: Info Source control is disabled
+[2017.03.09-04.02.10:607][  0]SourceControl: Info Source control is disabled
+[2017.03.09-04.02.10:853][  0]LogEngine: Initializing Engine...
+[2017.03.09-04.02.10:854][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.09-04.02.10:855][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.09-04.02.10:998][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.03.09-04.02.11:010][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.09-04.02.11:057][  0]LogInit: FAudioDevice initialized.
+[2017.03.09-04.02.11:087][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/armorias/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.09-04.02.11:099][  0]LogInit: Texture streaming: Enabled
+[2017.03.09-04.02.11:128][  0]LogInit: Transaction tracking system initialized
+[2017.03.09-04.02.11:158][  0]BlueprintLog: New page: Editor Load
+[2017.03.09-04.02.11:243][  0]LocalizationService: Info Localization service is disabled
+[2017.03.09-04.02.11:304][  0]LogConsoleResponse:Display: 
+[2017.03.09-04.02.11:406][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.03.09-04.02.11:406][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.09-04.02.11:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/' took 0.02s
+[2017.03.09-04.02.11:506][  0]SourceControl: Info Source control is disabled
+[2017.03.09-04.02.11:603][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-04.02.16:006][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-04.02.16:020][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-04.02.17:075][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-04.02.17:093][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-04.02.17:094][  0]Cmd: MAP LOAD FILE="../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-04.02.17:095][  0]LightingResults: New page: Lighting Build
+[2017.03.09-04.02.17:099][  0]MapCheck: New page: Map Check
+[2017.03.09-04.02.17:099][  0]LightingResults: New page: Lighting Build
+[2017.03.09-04.02.19:079][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.09-04.02.19:182][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-04.02.19:184][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-04.02.19:278][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.029ms to complete.
+[2017.03.09-04.02.19:279][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.184
+[2017.03.09-04.02.19:477][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1178_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_3ab8_0///####STATCAT_Advanced####
+[2017.03.09-04.02.19:477][  0]LogCollectionManager: Loaded 0 collections in 0.002543 seconds
+[2017.03.09-04.02.19:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/Collections/' took 0.01s
+[2017.03.09-04.02.19:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/Developers/armorias/Collections/' took 0.01s
+[2017.03.09-04.02.19:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/Collections/' took 0.01s
+[2017.03.09-04.02.19:523][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.03.09-04.02.19:532][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2062 classes and 375 folders.
+[2017.03.09-04.02.19:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.09-04.02.19:535][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.09-04.02.19:536][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.03.09-04.02.19:541][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.09-04.02.19:585][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.09-04.02.19:589][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.09-04.02.19:605][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.09-04.02.19:613][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.09-04.02.19:642][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.09-04.02.19:643][  0]LogLoad: Full Startup: 14.69 seconds (BP compile: 0.51 seconds)
+[2017.03.09-04.02.19:643][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.09-04.02.19:643][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.09-04.02.19:661][  0]LogOcInput: OculusInput pre-init called
+[2017.03.09-04.02.19:693][  0]LogContentStreaming: Texture pool size now 700 MB
+[2017.03.09-04.02.19:849][  1]LogRenderer: Reallocating scene render targets to support 1016x472 (Frame:2).
+[2017.03.09-04.02.20:044][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/' took 0.37s
+[2017.03.09-04.02.20:059][  1]LogAssetRegistry: Asset discovery search completed in 10.5780 seconds
+[2017.03.09-04.02.20:059][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.03.09-04.02.20:059][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.03.09-04.02.22:081][ 50]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:54).
+[2017.03.09-04.02.27:125][ 86]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.02.30:638][ 97]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.03.09-04.02.30:731][ 97]LogRenderer: Reallocating scene render targets to support 1208x880 (Frame:136).
+[2017.03.09-04.03.00:656][280]LogSavePackage: Save=6.08ms
+[2017.03.09-04.03.00:656][280]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/paladin_idle_SkeletonA5E7031F48DA294BCE7ACDA0E6D0FB3D.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset'
+[2017.03.09-04.03.00:658][280]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset
+[2017.03.09-04.03.45:519][551]LogSavePackage: Save=281.50ms
+[2017.03.09-04.03.45:519][551]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMap6681966E467456052E104C84ADA9DF9A.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.03.45:522][551]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.04.38:486][818]LogConsoleManager:Warning: Performance warning: Console object named 'PerfWarn.FineSampleTime' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
+[2017.03.09-04.05.00:768][913]LogSavePackage: Save=7.63ms
+[2017.03.09-04.05.00:768][913]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/paladin_idle_SkeletonE1352C6B4B94B3416850EEB30F4016DC.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset'
+[2017.03.09-04.05.00:770][913]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset
+[2017.03.09-04.05.01:633][919]LogSavePackage: Save=6.87ms
+[2017.03.09-04.05.01:633][919]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/paladin_idle_Skeleton0C27686E4D38BC2FF0DB93BBFEDE09B4.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset'
+[2017.03.09-04.05.01:636][919]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset
+[2017.03.09-04.05.06:830][943]LogSavePackage: Save=23.51ms
+[2017.03.09-04.05.06:830][943]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/paladin_idleB313D187461223B97790C89BF7BACA78.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle.uasset'
+[2017.03.09-04.05.06:834][943]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle.uasset
+[2017.03.09-04.05.10:588][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.05.10:588][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-04.05.10:589][ 22]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 8, 2017, 6:05:10 PM)
+[2017.03.09-04.05.10:589][ 22]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.09-04.05.10:715][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.125826s)
+[2017.03.09-04.05.10:715][ 22]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.09-04.05.10:716][ 22]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.03.09-04.05.10:716][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.127025s)
+[2017.03.09-04.05.10:766][ 22]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.09-04.05.10:809][ 22]LogInit: FAudioDevice initialized.
+[2017.03.09-04.05.10:874][ 22]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.09-04.05.10:896][ 22]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.03.08-23.05.10
+[2017.03.09-04.05.10:900][ 22]LogWorld: Bringing up level for play took: 0.024674
+[2017.03.09-04.05.10:903][ 22]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.03.09-04.05.10:905][ 22]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.836
+[2017.03.09-04.05.10:905][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.05.34:889][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.05.34:970][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.05.42:878][674]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.03.09-04.05.57:396][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sword)
+[2017.03.09-04.05.57:956][849]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sword)
+[2017.03.09-04.06.31:162][  5]LogEditorViewport: Clicking on Actor (LMB): superWallTop_C (superWall7)
+[2017.03.09-04.06.32:453][ 67]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.06.34:250][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.03.09-04.08.00:210][385]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.08.01:272][443]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.10.32:505][296]LogSavePackage: Save=249.10ms
+[2017.03.09-04.10.32:505][296]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMapBF7966DA403CAD03611C2DA9955659BD.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.10.32:510][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.10.34:557][346]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.03.09-04.10.34:557][346]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.03.09-04.10.38:249][360]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.03.09-04.13.06:421][154]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.13.07:366][161]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.13.08:572][171]Cmd: TRANSACTION UNDO
+[2017.03.09-04.13.08:572][171]LogEditorTransaction: Undo Create Actors
+[2017.03.09-04.13.09:789][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.13.13:887][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.14.43:243][669]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.03.09-04.15.22:493][848]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.03.09-04.15.22:707][848]BlueprintEditorCompileResults: Info [0797.76] Compile of PersistentLevel.ThirdPersonExampleMap successful! [in 213 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.09-04.15.27:213][865]LogSavePackage: Save=315.12ms
+[2017.03.09-04.15.27:213][865]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMap9A1001754379AFEE6EFD99B4FFB81DF8.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.15.27:220][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.15.27:285][865]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.491
+[2017.03.09-04.15.30:555][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.15.30:555][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-04.15.30:556][902]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 8, 2017, 6:15:30 PM)
+[2017.03.09-04.15.30:556][902]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.09-04.15.30:687][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130771s)
+[2017.03.09-04.15.30:687][902]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.09-04.15.30:688][902]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.03.09-04.15.30:688][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.131919s)
+[2017.03.09-04.15.30:727][902]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.09-04.15.30:774][902]LogInit: FAudioDevice initialized.
+[2017.03.09-04.15.30:830][902]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.09-04.15.30:856][902]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.03.08-23.15.30
+[2017.03.09-04.15.30:859][902]LogWorld: Bringing up level for play took: 0.026938
+[2017.03.09-04.15.30:864][902]PIE:Warning: Warning AttachTo: '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.KnightOfLight_167.CharacterMesh0' is not static  (in blueprint "KnightOfLight"), cannot attach '/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.shield_1_2.StaticMeshComponent0' which is static to it. Aborting.
+[2017.03.09-04.15.30:864][902]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.795
+[2017.03.09-04.15.30:865][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.15.39:074][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.15.39:129][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.15.58:161][626]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.03.09-04.15.58:161][626]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.03.09-04.16.26:296][789]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.03.09-04.16.26:414][789]BlueprintEditorCompileResults: Info [0861.46] Compile of PersistentLevel.ThirdPersonExampleMap successful! [in 117 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.09-04.16.30:414][804]LogSavePackage: Save=298.16ms
+[2017.03.09-04.16.30:415][804]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMapE154DCF04FD1159EF6E286A034E6D5E6.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.16.30:420][804]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.16.30:484][804]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.480
+[2017.03.09-04.19.43:762][425]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.03.09-04.19.47:945][446]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.03.09-04.19.54:295][668]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.20.09:094][911]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.03.09-04.21.41:986][465]LogEditorViewport: Clicking Background
+[2017.03.09-04.21.43:390][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.21.53:133][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.22.06:201][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.22.08:382][597]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.22.08:813][600]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.23.06:636][858]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (shield_1_1)
+[2017.03.09-04.23.18:395][902]Cmd: EDIT COPY
+[2017.03.09-04.24.29:840][165]BlueprintLog: New page: Compile KnightOfLight
+[2017.03.09-04.24.30:133][165]BlueprintEditorCompileResults: Info [1345.18] Compile of KnightOfLight successful! [in 292 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.03.09-04.24.31:562][171]LogSavePackage: Save=195.83ms
+[2017.03.09-04.24.31:562][171]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/KnightOfLightB485D0054351F773F97621AC035B0EA7.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.03.09-04.24.31:567][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.03.09-04.24.36:102][209]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.03.09-04.26.18:195][689]LogSavePackage: Save=292.96ms
+[2017.03.09-04.26.18:195][689]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMapE14B617243925A70679C44AB56E9214A.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.26.18:199][689]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.26.21:532][801]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (shield_1_1)
+[2017.03.09-04.26.35:849][914]Cmd: TRANSACTION UNDO
+[2017.03.09-04.26.35:849][914]LogEditorTransaction: Undo Attach actors
+[2017.03.09-04.26.37:423][935]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (shield_1_1)
+[2017.03.09-04.27.11:965][129]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.08:163][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.28.20:490][182]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.20:929][201]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.21:229][218]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.21:465][231]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.22:287][280]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.22:677][303]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.23:102][328]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.23:509][352]LogEditorViewport: Clicking on Component (LMB): CapsuleComponent (CollisionCylinder)
+[2017.03.09-04.28.24:314][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_1)
+[2017.03.09-04.28.25:209][445]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.25:700][466]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.26:062][487]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.26:318][501]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.26:828][531]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.26:938][537]LogEditorViewport: Clicking on Actor (double click): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.27:195][550]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.27:325][557]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.27:562][570]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.28:103][602]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.28:199][607]LogEditorViewport: Clicking on Actor (double click): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.28:474][621]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.28:657][631]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.28:942][647]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.29:036][652]LogEditorViewport: Clicking on Actor (double click): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.29:345][668]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.29:443][673]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.29:762][691]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.29:889][698]LogEditorViewport: Clicking on Actor (double click): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.30:196][714]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.30:295][719]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.30:598][736]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.30:693][741]LogEditorViewport: Clicking on Actor (double click): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.30:977][755]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.31:177][766]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.34:182][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.28.35:393][908]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.36:133][945]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.28.36:199][948]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2017.03.09-04.28.37:604][ 31]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (shield_1_0)
+[2017.03.09-04.28.59:674][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.03.09-04.29.02:097][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.29.03:335][338]Cmd: DELETE
+[2017.03.09-04.29.03:335][338]Cmd: ACTOR DELETE
+[2017.03.09-04.29.03:336][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.09-04.29.03:367][338]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2017.03.09-04.29.04:010][377]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.29.05:774][415]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.03.09-04.30.47:150][819]LogSavePackage: Save=9.55ms
+[2017.03.09-04.30.47:150][819]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/paladin_idle_SkeletonDFA5519F444B7A66E980C1BE550A7A8E.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset'
+[2017.03.09-04.30.47:152][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset
+[2017.03.09-04.31.23:936][ 34]LogSavePackage: Save=7.73ms
+[2017.03.09-04.31.23:936][ 34]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/paladin_idle_SkeletonF5AE55524CEDBE3C982AA6B3BC9C5D82.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset'
+[2017.03.09-04.31.23:939][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle_Skeleton.uasset
+[2017.03.09-04.31.32:387][329]LogEditorViewport: Clicking on Actor (LMB): AI_Turret_C (AI_Turret)
+[2017.03.09-04.31.56:053][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.03.09-04.31.56:793][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.03.09-04.31.57:517][791]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.03.09-04.31.58:058][822]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.03.09-04.31.59:993][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.03.09-04.32.00:596][970]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.32.01:086][991]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.32.07:258][236]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.03.09-04.33.07:829][602]LogEditorViewport: Clicking Background
+[2017.03.09-04.33.08:949][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_1)
+[2017.03.09-04.33.11:910][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_1)
+[2017.03.09-04.33.18:747][666]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.33.19:532][670]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.33.20:239][675]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.33.36:237][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.35.35:887][416]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.35.41:083][446]LogActorFactory: Actor Factory created shield_1_0
+[2017.03.09-04.37.04:329][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.37.56:797][225]BlueprintLog: New page: Compile KnightOfLight
+[2017.03.09-04.37.56:892][225]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.03.09-04.37.57:332][225]LogBlueprint:Warning: Compiler Warning [2152.38] Compile of KnightOfLight failed. 1 Fatal Issue(s) 0 Warning(s) [in 535 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.03.09-04.37.57:332][225]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.03.09-04.37.57:332][225]BlueprintEditorCompileResults:Warning: Warning [2152.38] Compile of KnightOfLight failed. 1 Fatal Issue(s) 0 Warning(s) [in 535 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.03.09-04.38.06:443][280]BlueprintLog: New page: Compile KnightOfLight
+[2017.03.09-04.38.06:697][280]BlueprintEditorCompileResults: Info [2161.75] Compile of KnightOfLight successful! [in 254 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.03.09-04.38.09:925][299]LogSavePackage: Save=204.51ms
+[2017.03.09-04.38.09:925][299]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/KnightOfLight0708B9164ECE78CF947651AE213925DB.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.03.09-04.38.09:929][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.03.09-04.38.17:127][519]LogEditorViewport: Clicking on Actor (LMB): KnightOfLight_C (KnightOfLight)
+[2017.03.09-04.38.21:457][612]LogSavePackage: Save=14.06ms
+[2017.03.09-04.38.21:458][612]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/paladin_idleAB490CA2461CF907DBAC1C8B3DA39202.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle.uasset'
+[2017.03.09-04.38.21:462][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/paladin_idle.uasset
+[2017.03.09-04.38.21:841][612]LogSavePackage: Save=267.60ms
+[2017.03.09-04.38.21:841][612]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMap901CB9B74A4FE3D95464E2B2E3072D51.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.38.21:845][612]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.38.21:908][612]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.442
+[2017.03.09-04.38.23:993][625]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.03.09-04.38.24:261][625]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.09-04.38.27:406][640]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.03.09-04.38.41:171][876]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2017.03.09-04.41.07:856][834]BlueprintLog: New page: Compile Paladin
+[2017.03.09-04.41.08:057][834]BlueprintEditorCompileResults: Info [2343.11] Compile of Paladin successful! [in 201 ms] (/Game/bluePrints/Animations/animation_shit/Paladin.Paladin)
+[2017.03.09-04.41.09:164][839]LogSavePackage: Save=28.26ms
+[2017.03.09-04.41.09:164][839]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/Paladin42B38CD342DBA4E900F907B889C097E2.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/animation_shit/Paladin.uasset'
+[2017.03.09-04.41.09:168][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/animation_shit/Paladin.uasset
+[2017.03.09-04.41.24:514][529]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.09-04.41.27:777][549]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.27:818][550]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:009][551]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:070][552]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:205][553]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:337][554]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:470][555]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:598][556]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:726][557]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:856][558]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.28:989][559]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.29:121][560]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.29:255][561]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.29:384][562]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.29:514][563]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.29:643][564]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.29:780][565]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.29:919][566]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.30:056][567]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.30:190][568]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.30:324][569]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.30:456][570]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.30:589][571]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.30:719][572]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.30:849][573]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.30:980][574]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.31:112][575]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.31:243][576]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.31:375][577]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.31:505][578]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.31:633][579]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.31:758][580]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.31:890][581]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.32:024][582]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.32:157][583]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.32:290][584]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.32:418][585]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.32:549][586]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.32:678][587]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.32:808][588]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.32:944][589]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.33:082][590]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.33:221][591]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.33:349][592]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.33:482][593]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.33:617][594]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.33:754][595]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.33:887][596]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.34:021][597]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.34:160][598]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.34:297][599]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.34:434][600]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.34:576][601]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.34:712][602]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.34:849][603]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.34:988][604]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.35:128][605]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.35:269][606]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.35:400][607]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.35:535][608]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.35:661][609]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.35:788][610]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.35:918][611]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.36:051][612]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.36:182][613]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.36:311][614]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.36:438][615]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.36:566][616]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.36:695][617]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.36:827][618]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2017.03.09-04.41.40:002][721]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2017.03.09-04.42.40:688][456]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2017.03.09-04.44.35:590][165]BlueprintLog: New page: Compile Paladin
+[2017.03.09-04.44.35:790][165]BlueprintEditorCompileResults: Info [2550.84] Compile of Paladin successful! [in 200 ms] (/Game/bluePrints/Animations/animation_shit/Paladin.Paladin)
+[2017.03.09-04.44.36:715][169]LogSavePackage: Save=28.17ms
+[2017.03.09-04.44.36:715][169]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/Paladin4F4F17F04E8945F39EBDCA9FFA4164B8.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/animation_shit/Paladin.uasset'
+[2017.03.09-04.44.36:719][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/animation_shit/Paladin.uasset
+[2017.03.09-04.47.54:397][667]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.09-04.47.54:796][668]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.011 s
+[2017.03.09-04.47.54:796][668]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 374]
+
+Stack: 
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2017.03.09-04.47.54:796][668]LogStats:                SubmitErrorReport -  0.000 s
+[2017.03.09-04.47.55:963][668]LogStats:                    SendNewReport -  1.167 s
+[2017.03.09-04.47.55:963][668]LogStats:             FDebug::EnsureFailed -  1.179 s
+[2017.03.09-04.49.01:595][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.025
+[2017.03.09-04.49.01:697][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/bluePrints/Animations/animation_shit/Paladin] ([1] browsable assets)...
+[2017.03.09-04.49.01:848][992]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/bluePrints/Animations/animation_shit/Paladin.Paladin]
+[2017.03.09-04.49.01:848][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/bluePrints/Animations/animation_shit/Paladin]
+[2017.03.09-04.49.02:027][992]LogSavePackage: Save=40.43ms
+[2017.03.09-04.49.02:027][992]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/Paladin_Auto1E4D18B7B4A993A370772E2A3879B34CC.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/Autosaves/Game/bluePrints/Animations/animation_shit/Paladin_Auto1.uasset'
+[2017.03.09-04.49.02:029][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/Autosaves/Game/bluePrints/Animations/animation_shit/Paladin_Auto1.uasset
+[2017.03.09-04.49.02:029][992]LogFileHelpers: Auto-saving content packages took 0.335
+[2017.03.09-04.51.01:732][424]BlueprintLog: New page: Compile Paladin
+[2017.03.09-04.51.01:850][424]BlueprintEditorCompileResults: Info [2936.90] Compile of Paladin successful! [in 117 ms] (/Game/bluePrints/Animations/animation_shit/Paladin.Paladin)
+[2017.03.09-04.51.03:087][429]LogSavePackage: Save=33.83ms
+[2017.03.09-04.51.03:088][429]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/Paladin352ED7F8458D71A9F8C8E584F34F5ED5.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/animation_shit/Paladin.uasset'
+[2017.03.09-04.51.03:098][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/animation_shit/Paladin.uasset
+[2017.03.09-04.52.40:867][ 78]BlueprintLog: New page: Compile KnightOfLight
+[2017.03.09-04.52.41:186][ 78]BlueprintEditorCompileResults: Info [3036.24] Compile of KnightOfLight successful! [in 318 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.03.09-04.52.42:261][ 82]LogSavePackage: Save=192.13ms
+[2017.03.09-04.52.42:261][ 82]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/KnightOfLight8CF71B394A70A63A3F0AF484F2CE7951.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.03.09-04.52.42:264][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.03.09-04.53.15:525][295]BlueprintLog: New page: Compile KnightOfLight
+[2017.03.09-04.53.15:839][295]BlueprintEditorCompileResults: Info [3070.89] Compile of KnightOfLight successful! [in 314 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.03.09-04.53.17:753][303]LogSavePackage: Save=186.63ms
+[2017.03.09-04.53.17:753][303]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/KnightOfLight3DD58B6143B48D44CEE83DB4DA0D374D.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.03.09-04.53.17:757][303]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.03.09-04.53.23:541][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sword)
+[2017.03.09-04.53.24:467][553]Cmd: DELETE
+[2017.03.09-04.53.24:467][553]Cmd: ACTOR DELETE
+[2017.03.09-04.53.24:468][553]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.09-04.53.24:490][553]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.03.09-04.53.25:126][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_1)
+[2017.03.09-04.53.25:371][599]Cmd: DELETE
+[2017.03.09-04.53.25:371][599]Cmd: ACTOR DELETE
+[2017.03.09-04.53.25:372][599]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.09-04.53.25:390][599]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.03.09-04.53.26:072][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_1_0)
+[2017.03.09-04.53.26:229][648]Cmd: DELETE
+[2017.03.09-04.53.26:229][648]Cmd: ACTOR DELETE
+[2017.03.09-04.53.26:230][648]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.09-04.53.26:248][648]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.03.09-04.53.28:167][715]LogSavePackage: Save=265.09ms
+[2017.03.09-04.53.28:167][715]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMap3ED2E8A5419B34871C90D3B8B210AC00.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.53.28:171][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.53.32:499][887]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2017.03.09-04.53.32:645][887]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.03.09-04.53.39:297][934]LogSavePackage: Save=14.79ms
+[2017.03.09-04.53.39:297][934]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/idletowalkCF479CD146888EEBD36DBD81952B5767.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/animation_shit/idletowalk.uasset'
+[2017.03.09-04.53.39:300][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/bluePrints/Animations/animation_shit/idletowalk.uasset
+[2017.03.09-04.53.41:395][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.53.41:395][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-04.53.41:395][973]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 8, 2017, 6:53:41 PM)
+[2017.03.09-04.53.41:395][973]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.09-04.53.41:519][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123735s)
+[2017.03.09-04.53.41:520][973]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.09-04.53.41:521][973]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2017.03.09-04.53.41:521][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.125773s)
+[2017.03.09-04.53.41:568][973]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2017.03.09-04.53.41:611][973]LogInit: FAudioDevice initialized.
+[2017.03.09-04.53.41:663][973]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.09-04.53.41:687][973]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.03.08-23.53.41
+[2017.03.09-04.53.41:690][973]LogWorld: Bringing up level for play took: 0.025740
+[2017.03.09-04.53.41:693][973]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.376
+[2017.03.09-04.53.41:693][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.54.00:321][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.54.00:359][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.09-04.54.01:852][118]LogSavePackage: Save=264.58ms
+[2017.03.09-04.54.01:852][118]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMap55908C4C470C90B52C7AFB89301CE705.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.54.01:855][118]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.55.54:639][818]LogSavePackage: Save=270.45ms
+[2017.03.09-04.55.54:639][818]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMapF33EE8C040E758E0B95AE497A1C452BA.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.55.54:642][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.55.58:771][984]LogSavePackage: Save=282.53ms
+[2017.03.09-04.55.58:771][984]LogSavePackage: Moving '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Saved/ThirdPersonExampleMap846456CA455ED329FD2B1FADFFC85919.tmp' to '../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.09-04.55.58:773][984]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/armorias/Documents/GitHub/Soul-Striker/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.09-04.56.01:030][ 81]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-04.56.01:324][ 82]Cmd: QUIT_EDITOR
+[2017.03.09-04.56.01:751][ 82]LogExit: Preparing to exit.
+[2017.03.09-04.56.03:189][ 82]LogExit: Editor shut down
+[2017.03.09-04.56.03:191][ 82]LogExit: Transaction tracking system shut down
+[2017.03.09-04.56.03:425][ 82]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.09-04.56.03:426][ 82]LogExit: Object subsystem successfully closed.
+[2017.03.09-04.56.03:462][ 82]LogD3D11RHI: Shutdown
+[2017.03.09-04.56.03:462][ 82]LogD3D11RHI: CleanupD3DDevice
+[2017.03.09-04.56.03:597][ 82]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.09-04.56.03:610][ 82]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (218)
+[2017.03.09-04.56.03:611][ 82]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2017.03.09-04.56.03:611][ 82]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2017.03.09-04.56.03:612][ 82]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2017.03.09-04.56.03:612][ 82]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2017.03.09-04.56.03:612][ 82]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2017.03.09-04.56.03:612][ 82]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2017.03.09-04.56.03:612][ 82]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2017.03.09-04.56.03:618][ 82]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2017.03.09-04.56.03:618][ 82]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2017.03.09-04.56.03:618][ 82]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2017.03.09-04.56.03:618][ 82]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2017.03.09-04.56.03:618][ 82]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2017.03.09-04.56.03:619][ 82]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2017.03.09-04.56.03:620][ 82]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2017.03.09-04.56.03:620][ 82]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2017.03.09-04.56.03:620][ 82]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2017.03.09-04.56.03:620][ 82]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2017.03.09-04.56.03:737][ 82]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2017.03.09-04.56.03:738][ 82]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2017.03.09-04.56.03:738][ 82]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2017.03.09-04.56.03:738][ 82]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2017.03.09-04.56.03:738][ 82]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2017.03.09-04.56.03:738][ 82]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2017.03.09-04.56.03:738][ 82]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2017.03.09-04.56.03:738][ 82]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2017.03.09-04.56.03:791][ 82]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2017.03.09-04.56.03:792][ 82]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2017.03.09-04.56.03:792][ 82]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2017.03.09-04.56.03:792][ 82]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2017.03.09-04.56.03:792][ 82]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2017.03.09-04.56.03:792][ 82]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2017.03.09-04.56.03:792][ 82]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2017.03.09-04.56.03:792][ 82]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2017.03.09-04.56.03:793][ 82]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module SubstanceEditor (129)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2017.03.09-04.56.03:920][ 82]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2017.03.09-04.56.03:921][ 82]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2017.03.09-04.56.03:922][ 82]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2017.03.09-04.56.03:924][ 82]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2017.03.09-04.56.03:924][ 82]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2017.03.09-04.56.04:025][ 82]LogModuleManager: Shutting down and abandoning module SubstanceCore (94)
+[2017.03.09-04.56.04:025][ 82]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.03.09-04.56.04:025][ 82]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.03.09-04.56.04:025][ 82]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.03.09-04.56.04:025][ 82]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.03.09-04.56.04:025][ 82]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.03.09-04.56.04:026][ 82]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.03.09-04.56.04:026][ 82]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.03.09-04.56.04:027][ 82]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.03.09-04.56.04:028][ 82]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.03.09-04.56.04:028][ 82]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.03.09-04.56.04:028][ 82]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.03.09-04.56.04:028][ 82]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.03.09-04.56.04:028][ 82]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.03.09-04.56.04:028][ 82]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.03.09-04.56.04:028][ 82]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.03.09-04.56.04:028][ 82]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.03.09-04.56.04:038][ 82]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.03.09-04.56.04:038][ 82]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.03.09-04.56.04:038][ 82]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.03.09-04.56.04:038][ 82]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.03.09-04.56.04:038][ 82]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.03.09-04.56.04:038][ 82]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.03.09-04.56.04:056][ 82]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.03.09-04.56.04:234][ 82]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.03.09-04.56.04:234][ 82]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.03.09-04.56.04:234][ 82]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.03.09-04.56.04:234][ 82]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.03.09-04.56.04:314][ 82]LogDerivedDataCache: Shutdown
+[2017.03.09-04.56.04:314][ 82]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.03.09-04.56.04:315][ 82]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.03.09-04.56.04:316][ 82]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.03.09-04.56.08:327][ 82]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.03.09-04.56.08:327][ 82]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.03.09-04.56.08:327][ 82]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.03.09-04.56.08:327][ 82]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.09-04.56.08:328][ 82]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.09-04.56.08:328][ 82]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.09-04.56.08:328][ 82]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.09-04.56.08:352][ 82]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.09-04.56.08:353][ 82]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.09-04.56.08:355][ 82]LogExit: Exiting.
+[2017.03.09-04.56.08:394][ 82]Log file closed, 03/08/17 23:56:08
