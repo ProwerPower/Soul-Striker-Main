@@ -1,0 +1,1209 @@
+﻿Log file open, 03/29/17 18:15:47
+LogInit:Display: Running engine for game: SoulStriker
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1961544432) SRandInit(1961544435).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.237221
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.29-22.15.47:413][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.29-22.15.47:413][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.29-22.15.47:493][  0]LogInit: Computer: BMO
+[2017.03.29-22.15.47:493][  0]LogInit: User: Steve
+[2017.03.29-22.15.47:493][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.29-22.15.47:493][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2017.03.29-22.15.47:494][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.03.29-22.15.47:494][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.29-22.15.47:494][  0]LogMemory: Process Physical Memory: 191.41 MB used, 191.41 MB peak
+[2017.03.29-22.15.47:494][  0]LogMemory: Process Virtual Memory: 195.26 MB used, 195.26 MB peak
+[2017.03.29-22.15.47:494][  0]LogMemory: Physical Memory: 5265.53 MB used, 8145.96 MB total
+[2017.03.29-22.15.47:494][  0]LogMemory: Virtual Memory: 553.80 MB used, 134217728.00 MB total
+[2017.03.29-22.15.48:321][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.29-22.15.49:221][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.29-22.15.50:196][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2017.03.29-22.15.50:196][  0]LogD3D11RHI:       2016/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.29-22.15.50:198][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.29-22.15.50:198][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.29-22.15.50:198][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.29-22.15.50:229][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.29-22.15.50:229][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.29-22.15.50:229][  0]LogWindows: EnumDisplayDevices:
+[2017.03.29-22.15.50:229][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2017.03.29-22.15.50:229][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:1)
+[2017.03.29-22.15.50:229][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.03.29-22.15.50:229][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.03.29-22.15.50:230][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.29-22.15.50:230][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2017.03.29-22.15.50:230][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.03.29-22.15.50:230][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.03.29-22.15.50:230][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.29-22.15.50:712][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.29-22.15.50:951][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
+[2017.03.29-22.15.50:952][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Intermediate/Shaders/WorkingDirectory/230628/).
+[2017.03.29-22.15.50:952][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steve/AppData/Local/Temp/UnrealShaderWorkingDir/343BDB0B487663DBA13A739CAFB61FCD/'.
+[2017.03.29-22.15.50:975][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.29-22.15.59:684][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.29-22.15.59:719][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.29-22.15.59:758][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.29-22.15.59:789][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.29-22.15.59:820][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.29-22.15.59:888][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.29-22.15.59:910][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.29-22.15.59:948][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.29-22.15.59:966][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.29-22.16.00:008][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.29-22.16.00:044][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.29-22.16.00:080][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.29-22.16.00:080][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.29-22.16.00:138][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.29-22.16.00:279][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.29-22.16.00:285][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.29-22.16.00:293][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.29-22.16.00:299][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.29-22.16.00:343][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.29-22.16.00:343][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.29-22.16.01:710][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.29-22.16.02:400][  0]LogDerivedDataCache: Loaded boot cache 0.67s 48MB C:/Users/Steve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.29-22.16.02:400][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Steve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.03.29-22.16.02:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.29-22.16.02:401][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.29-22.16.02:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.29-22.16.02:401][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.29-22.16.02:511][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.29-22.16.02:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steve/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.29-22.16.22:185][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.29-22.16.22:409][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.29-22.16.30:836][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.29-22.16.30:836][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.29-22.16.30:836][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.29-22.16.40:208][  0]LogAssetRegistry: FAssetRegistry took 0.0232 seconds to start up
+[2017.03.29-22.16.40:498][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.135228 seconds
+[2017.03.29-22.16.40:654][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.03.29-22.16.40:654][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.03.29-22.16.40:654][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.29-22.16.40:815][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.29-22.16.58:936][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.29-22.16.58:943][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.29-22.17.59:579][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.03.29-22.17.59:935][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.29-22.18.07:765][  0]SourceControl: Info Source control is disabled
+[2017.03.29-22.18.07:827][  0]SourceControl: Info Source control is disabled
+[2017.03.29-22.18.08:164][  0]SourceControl: Info Source control is disabled
+[2017.03.29-22.18.08:383][  0]SourceControl: Info Source control is disabled
+[2017.03.29-22.18.15:775][  0]LogEngine: Initializing Engine...
+[2017.03.29-22.18.16:076][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.29-22.18.16:110][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.29-22.18.19:767][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.03.29-22.18.20:817][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.18.20:958][  0]LogInit: FAudioDevice initialized.
+[2017.03.29-22.18.21:072][  0]LogDerivedDataCache: Saved boot cache 0.11s 48MB C:/Users/Steve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.29-22.18.21:082][  0]LogInit: Texture streaming: Enabled
+[2017.03.29-22.18.24:486][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.29-22.18.26:745][  0]LogInit: Transaction tracking system initialized
+[2017.03.29-22.18.29:120][  0]BlueprintLog: New page: Editor Load
+[2017.03.29-22.18.33:858][  0]LocalizationService: Info Localization service is disabled
+[2017.03.29-22.18.37:110][  0]LogConsoleResponse:Display: 
+[2017.03.29-22.18.44:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/' took 0.08s
+[2017.03.29-22.18.44:442][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.03.29-22.18.44:443][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.29-22.18.52:732][  0]SourceControl: Info Source control is disabled
+[2017.03.29-22.18.52:986][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.29-22.18.53:266][  0]LightingResults: New page: Lighting Build
+[2017.03.29-22.18.54:424][  0]MapCheck: New page: Map Check
+[2017.03.29-22.18.54:424][  0]LightingResults: New page: Lighting Build
+[2017.03.29-22.19.07:356][  0]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.03.29-22.19.07:358][  0]LogBlueprint:Warning: Compiler Warning [0205.23] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 1 Warning(s) [in 41 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.19.07:396][  0]LogBlueprint:Warning: Compiler Warning [0205.27] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.19.07:396][  0]LogBlueprint:Warning: Compiler Warning [0205.27] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.19.07:415][  0]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.03.29-22.19.07:417][  0]LogBlueprint:Warning: Compiler Warning [0205.29] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 1 Warning(s) [in 4 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.19.07:417][  0]LogBlueprint:Warning: Compiler Warning [0205.29] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.19.07:417][  0]LogBlueprint:Warning: Compiler Warning [0205.29] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.19.15:838][  0]LogTexture:Display: Building textures: halfheart (AutoDXT)
+[2017.03.29-22.19.23:313][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.29-22.19.31:493][  0]LogEditorServer: Finished looking for orphan Actors (0.038 secs)
+[2017.03.29-22.19.32:142][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.29-22.19.32:292][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 149.188ms to complete.
+[2017.03.29-22.19.32:292][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 39.466
+[2017.03.29-22.19.47:473][  0]LogCollectionManager: Loaded 0 collections in 0.157472 seconds
+[2017.03.29-22.19.49:007][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Collections/' took 0.01s
+[2017.03.29-22.19.49:007][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Developers/Steve/Collections/' took 0.01s
+[2017.03.29-22.19.49:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Collections/' took 0.01s
+[2017.03.29-22.19.49:008][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.03.29-22.19.49:051][  0]LogContentBrowser: Native class hierarchy populated in 0.0404 seconds. Added 2062 classes and 375 folders.
+[2017.03.29-22.19.49:452][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.051 s
+[2017.03.29-22.19.49:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.031 s
+[2017.03.29-22.19.49:527][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0016 seconds. Added 12 classes and 0 folders.
+[2017.03.29-22.19.49:852][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.03.29-22.19.59:118][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.03.29-22.19.59:706][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.29-22.20.03:672][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.29-22.20.05:315][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.29-22.20.05:959][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.29-22.20.05:960][  0]LogLoad: Full Startup: 263.83 seconds (BP compile: 3.52 seconds)
+[2017.03.29-22.20.05:960][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.29-22.20.05:960][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.29-22.20.06:517][  0]LogOcInput: OculusInput pre-init called
+[2017.03.29-22.20.09:541][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.29-22.20.15:998][  0]LogRenderer: Reallocating scene render targets to support 1272x604 (Frame:2).
+[2017.03.29-22.20.17:814][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/' took 10.08s
+[2017.03.29-22.20.20:122][  6]LogAssetRegistry: Asset discovery search completed in 219.9359 seconds
+[2017.03.29-22.20.20:214][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.29-22.20.20:256][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.099150 seconds (updated 0 objects)
+[2017.03.29-22.20.28:858][ 75]LogEditorViewport: Clicking on Actor (context menu): corruptionCube_C (corruptionCube50)
+[2017.03.29-22.20.51:071][865]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.03.29-22.20.51:072][865]LogBlueprint:Warning: Compiler Warning [0308.94] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 1 Warning(s) [in 65 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.20.51:108][865]LogBlueprint:Warning: Compiler Warning [0308.98] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.20.51:108][865]LogBlueprint:Warning: Compiler Warning [0308.98] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.20.51:489][865]LogBlueprint:Warning: Compiler Warning [0309.36] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 4 Warning(s) [in 380 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.20.51:489][865]LogBlueprint:Warning: Compiler Warning [0309.36] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.20.51:489][865]LogBlueprint:Warning: Compiler Warning [0309.36] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.03.29-22.20.51:898][865]LogSavePackage: Save=932.68ms
+[2017.03.29-22.20.51:898][865]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/ThirdPersonExampleMapBC6B251A4705BD62F09EF7B9D62438A3.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.29-22.20.51:924][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.29-22.20.52:144][865]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.337
+[2017.03.29-22.20.52:192][865]Cmd: MAP LOAD FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.29-22.20.52:223][865]LightingResults: New page: Lighting Build
+[2017.03.29-22.20.52:224][865]LoadErrors: New page: Loading map: Level_1.umap
+[2017.03.29-22.20.52:477][865]MapCheck: New page: Map Check
+[2017.03.29-22.20.52:478][865]LightingResults: New page: Lighting Build
+[2017.03.29-22.20.54:057][865]LogMaterial: Missing cached shader map for material Magic_Dot_M, compiling. 
+[2017.03.29-22.20.54:480][865]LogTexture:Display: Building textures: Magic_Circle_T (AutoDXT)
+[2017.03.29-22.20.54:684][865]LogTexture:Display: Building textures: Ring_Gradient_T (AutoDXT)
+[2017.03.29-22.20.54:701][865]LogMaterial: Missing cached shader map for material Magic_Ring_M, compiling. 
+[2017.03.29-22.20.54:770][865]LogMaterial: Missing cached shader map for material Magic_Circle_T_Mat, compiling. 
+[2017.03.29-22.20.54:973][865]LogMaterial: Missing cached shader map for material orbglow, compiling. 
+[2017.03.29-22.20.55:216][865]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.20.55:625][865]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.29-22.20.55:693][865]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.29-22.20.55:747][865]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.068ms to complete.
+[2017.03.29-22.20.55:747][865]LogFileHelpers: Loading map 'Level_1' took 3.598
+[2017.03.29-22.21.02:987][476]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.21.03:006][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.21.03:080][476]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:21:03 PM)
+[2017.03.29-22.21.03:080][476]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.21.03:165][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084815s)
+[2017.03.29-22.21.03:165][476]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.21.03:166][476]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2017.03.29-22.21.03:192][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.111745s)
+[2017.03.29-22.21.03:260][476]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.21.03:271][476]LogInit: FAudioDevice initialized.
+[2017.03.29-22.21.03:440][476]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.21.03:627][476]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.21.03
+[2017.03.29-22.21.03:778][476]LogWorld: Bringing up level for play took: 0.187101
+[2017.03.29-22.21.03:994][476]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.03.29-22.21.04:166][476]LogBlueprintUserMessages: [spiritOrbOG_107] 0.0
+[2017.03.29-22.21.04:166][476]LogBlueprintUserMessages: [spiritOrbOG_107] 0.0
+[2017.03.29-22.21.04:166][476]LogBlueprintUserMessages: [spiritOrbOG_107] 9.0
+[2017.03.29-22.21.04:166][476]LogBlueprintUserMessages: [spiritOrbOG_107] 0.0
+[2017.03.29-22.21.04:182][476]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.845
+[2017.03.29-22.21.04:182][476]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.21.18:836][ 27]LogBlueprintUserMessages: [AI_TurretBullet_C_1] 9.0
+[2017.03.29-22.21.21:832][367]LogBlueprintUserMessages: [AI_TurretBullet_C_2] 8.0
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:738][952]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:746][953]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:746][953]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:746][953]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:813][961]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:813][961]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:813][961]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:813][961]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:813][961]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:813][961]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:838][964]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:838][964]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:838][964]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:838][964]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:838][964]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:838][964]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:846][965]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:846][965]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:846][965]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.26:846][965]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:846][965]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.26:846][965]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:038][988]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:038][988]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:038][988]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:046][989]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:046][989]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:046][989]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:046][989]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:046][989]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:046][989]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:096][995]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:096][995]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:096][995]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:146][  1]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:146][  1]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:146][  1]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:154][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:154][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:154][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:154][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:154][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:155][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:155][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:155][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:155][  2]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:221][ 10]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:221][ 10]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:221][ 10]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:221][ 10]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:221][ 10]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:221][ 10]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:263][ 15]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:263][ 15]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:263][ 15]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:321][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:321][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:321][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:322][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:322][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:322][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:322][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:322][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:322][ 22]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:330][ 23]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:330][ 23]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:330][ 23]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:430][ 35]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:430][ 35]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:430][ 35]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:463][ 39]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:579][ 53]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:580][ 53]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:580][ 53]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:681][ 65]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:681][ 65]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:681][ 65]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:689][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:689][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:689][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:689][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:689][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:689][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:689][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:690][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:690][ 66]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:748][ 73]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:831][ 83]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:831][ 83]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:831][ 83]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.27:831][ 83]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:831][ 83]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.27:831][ 83]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:006][104]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:006][104]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:006][104]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:156][122]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:156][122]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:156][122]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:165][123]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:208][128]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:208][128]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:208][128]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:225][130]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:233][131]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:233][131]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:233][131]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:367][147]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:367][147]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:367][147]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:367][147]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:367][147]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:367][147]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:383][149]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:383][149]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:383][149]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:392][150]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:392][150]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:392][150]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:442][156]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:442][156]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:442][156]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:442][156]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:442][156]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:442][156]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:450][157]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:450][157]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:450][157]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:450][157]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:450][157]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:450][157]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:558][170]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:642][180]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:642][180]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:642][180]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:642][180]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:642][180]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:642][180]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:658][182]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:658][182]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:658][182]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:692][186]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:767][195]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:767][195]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:767][195]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:877][208]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:877][208]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:877][208]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:885][209]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:885][209]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:885][209]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:885][209]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:885][209]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:885][209]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.28:894][210]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:894][210]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.03.29-22.21.28:894][210]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.03.29-22.21.38:366][333]LogBlueprintUserMessages: [spiritOrbOG_C_0] 0.0
+[2017.03.29-22.21.38:366][333]LogBlueprintUserMessages: [spiritOrbOG_C_0] 0.0
+[2017.03.29-22.21.38:367][333]LogBlueprintUserMessages: [spiritOrbOG_C_0] 9.0
+[2017.03.29-22.21.38:367][333]LogBlueprintUserMessages: [spiritOrbOG_C_0] 0.0
+[2017.03.29-22.21.38:367][333]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.38:372][333]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.21.38:373][333]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.38:789][376]LogBlueprintUserMessages: [spiritOrbOG_C_0] -1260.149048
+[2017.03.29-22.21.40:275][554]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.40:927][626]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.41:863][738]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.42:731][842]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.44:744][ 83]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.45:948][227]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.46:899][341]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.21.48:035][477]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.03.29-22.21.53:710][156]LogBlueprintUserMessages: [spiritOrbOG_C_1] 0.0
+[2017.03.29-22.21.53:710][156]LogBlueprintUserMessages: [spiritOrbOG_C_1] 0.0
+[2017.03.29-22.21.53:710][156]LogBlueprintUserMessages: [spiritOrbOG_C_1] 9.0
+[2017.03.29-22.21.53:710][156]LogBlueprintUserMessages: [spiritOrbOG_C_1] 0.0
+[2017.03.29-22.21.53:710][156]LogBlueprintUserMessages: [spiritOrbOG_C_1] Hello
+[2017.03.29-22.21.53:710][156]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.21.53:711][156]LogBlueprintUserMessages: [spiritOrbOG_C_1] Hello
+[2017.03.29-22.21.54:295][226]LogBlueprintUserMessages: [spiritOrbOG_C_1] 0.000322
+[2017.03.29-22.21.55:916][420]LogBlueprintUserMessages: [spiritOrbOG_C_1] Hello
+[2017.03.29-22.22.03:807][365]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.22.04:819][486]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.22.07:825][845]LogBlueprintUserMessages: [spiritOrbOG_C_2] 0.0
+[2017.03.29-22.22.07:825][845]LogBlueprintUserMessages: [spiritOrbOG_C_2] 0.0
+[2017.03.29-22.22.07:825][845]LogBlueprintUserMessages: [spiritOrbOG_C_2] 9.0
+[2017.03.29-22.22.07:825][845]LogBlueprintUserMessages: [spiritOrbOG_C_2] 0.0
+[2017.03.29-22.22.07:825][845]LogBlueprintUserMessages: [spiritOrbOG_C_2] Hello
+[2017.03.29-22.22.07:825][845]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.22.07:826][845]LogBlueprintUserMessages: [spiritOrbOG_C_2] Hello
+[2017.03.29-22.22.08:271][898]LogBlueprintUserMessages: [spiritOrbOG_C_2] 0.000383
+[2017.03.29-22.22.08:604][938]LogBlueprintUserMessages: [spiritOrbOG_C_2] Hello
+[2017.03.29-22.22.09:539][ 50]LogBlueprintUserMessages: [spiritOrbOG_C_3] 0.0
+[2017.03.29-22.22.09:539][ 50]LogBlueprintUserMessages: [spiritOrbOG_C_3] 0.0
+[2017.03.29-22.22.09:539][ 50]LogBlueprintUserMessages: [spiritOrbOG_C_3] 9.0
+[2017.03.29-22.22.09:539][ 50]LogBlueprintUserMessages: [spiritOrbOG_C_3] 0.0
+[2017.03.29-22.22.09:539][ 50]LogBlueprintUserMessages: [spiritOrbOG_C_3] Hello
+[2017.03.29-22.22.09:539][ 50]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.22.09:540][ 50]LogBlueprintUserMessages: [spiritOrbOG_C_3] Hello
+[2017.03.29-22.22.10:592][176]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.03.29-22.22.12:248][374]LogBlueprintUserMessages: [spiritOrbOG_C_4] 0.0
+[2017.03.29-22.22.12:248][374]LogBlueprintUserMessages: [spiritOrbOG_C_4] 0.0
+[2017.03.29-22.22.12:248][374]LogBlueprintUserMessages: [spiritOrbOG_C_4] 9.0
+[2017.03.29-22.22.12:248][374]LogBlueprintUserMessages: [spiritOrbOG_C_4] 0.0
+[2017.03.29-22.22.12:248][374]LogBlueprintUserMessages: [spiritOrbOG_C_4] Hello
+[2017.03.29-22.22.12:249][374]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.22.12:249][374]LogBlueprintUserMessages: [spiritOrbOG_C_4] Hello
+[2017.03.29-22.22.14:553][650]LogBlueprintUserMessages: [spiritOrbOG_C_4] Hello
+[2017.03.29-22.22.18:500][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.22.18:744][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.22.24:576][674]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 111 classes and 0 folders.
+[2017.03.29-22.24.14:527][935]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.24.15:050][935]BlueprintEditorCompileResults: Info [0512.89] Compile of spiritOrbOG successful! [in 491 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.24.15:697][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.24.16:089][965]LogSavePackage: Save=374.08ms
+[2017.03.29-22.24.16:089][965]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG703CF29E4B1A2316B4E1249FF8ED79FB.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.24.16:093][965]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.25.28:421][577]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.116 s
+[2017.03.29-22.25.28:421][577]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 374]
+
+Stack: 
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Slate.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+UE4Editor-Core.dll
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+UE4Editor.exe
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2017.03.29-22.25.28:432][577]LogStats:                SubmitErrorReport -  0.010 s
+[2017.03.29-22.25.41:660][577]LogStats:                    SendNewReport - 13.228 s
+[2017.03.29-22.25.41:660][577]LogStats:             FDebug::EnsureFailed - 13.355 s
+[2017.03.29-22.25.41:931][578]LogRenderer: Reallocating scene render targets to support 1272x720 (Frame:22324).
+[2017.03.29-22.26.45:404][740]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.26.46:197][740]BlueprintEditorCompileResults: Info [0664.07] Compile of spiritOrbOG successful! [in 793 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.26.46:445][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.26.46:772][754]LogSavePackage: Save=314.06ms
+[2017.03.29-22.26.46:772][754]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOGA7290FB14B27C9DDBA481FA53BD5FB21.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.26.46:776][754]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.27.14:149][103]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.27.14:419][103]BlueprintEditorCompileResults: Info [0692.29] Compile of spiritOrbOG successful! [in 270 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.27.14:798][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.27.15:119][132]LogSavePackage: Save=313.08ms
+[2017.03.29-22.27.15:119][132]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG573E65084711B6A537C86BADABB0A954.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.27.15:123][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.28.02:983][325]LogEditorTransaction: Undo Delete current selection
+[2017.03.29-22.29.02:219][116]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.29.02:612][116]BlueprintEditorCompileResults: Info [0800.48] Compile of spiritOrbOG successful! [in 392 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.29.03:033][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.29.03:398][145]LogSavePackage: Save=357.81ms
+[2017.03.29-22.29.03:399][145]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOGCFFCDC7C4863656C9F96C99180CF71DE.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.29.03:402][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.29.04:770][240]LogSavePackage: Save=152.51ms
+[2017.03.29-22.29.04:770][240]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_135B5B20B4384123C895C2AA7A9AB8CF9.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.29.04:773][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.29.05:688][334]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.29.05:688][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.29.05:688][334]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:29:05 PM)
+[2017.03.29-22.29.05:688][334]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.29.05:698][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010048s)
+[2017.03.29-22.29.05:699][334]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.29.05:699][334]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.03.29-22.29.05:699][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.010959s)
+[2017.03.29-22.29.05:748][334]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.29.05:756][334]LogInit: FAudioDevice initialized.
+[2017.03.29-22.29.05:801][334]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.29.05:814][334]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.29.05
+[2017.03.29-22.29.05:816][334]LogWorld: Bringing up level for play took: 0.014199
+[2017.03.29-22.29.05:819][334]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.482
+[2017.03.29-22.29.05:819][334]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.29.08:331][629]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.08:917][699]LogBlueprintUserMessages: [spiritOrbOG_C_0] -843.837646
+[2017.03.29-22.29.12:442][119]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.13:842][286]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.15:006][425]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.15:006][425]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.03.29-22.29.16:927][655]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.17:211][689]LogBlueprintUserMessages: [spiritOrbOG_C_2] -1441.76709
+[2017.03.29-22.29.20:680][103]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.21:082][151]LogBlueprintUserMessages: [spiritOrbOG_C_3] -1260.145508
+[2017.03.29-22.29.24:346][540]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.24:549][564]LogBlueprintUserMessages: [spiritOrbOG_C_4] -1620.145874
+[2017.03.29-22.29.30:056][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.29.30:092][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.29.39:725][981]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.29.39:990][981]BlueprintEditorCompileResults: Info [0837.86] Compile of spiritOrbOG successful! [in 264 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.29.40:517][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.29.40:857][ 13]LogSavePackage: Save=324.66ms
+[2017.03.29-22.29.40:857][ 13]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG8DC1A15B42205ED73D6B0597445D62A5.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.29.40:860][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.29.44:438][302]LogSavePackage: Save=135.93ms
+[2017.03.29-22.29.44:438][302]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_11ABC9E0846AA773EEDE82C979529905E.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.29.44:440][302]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.29.45:477][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.29.45:477][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.29.45:477][414]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:29:45 PM)
+[2017.03.29-22.29.45:477][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.29.45:486][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008704s)
+[2017.03.29-22.29.45:486][414]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.29.45:487][414]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2017.03.29-22.29.45:487][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.009424s)
+[2017.03.29-22.29.45:516][414]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.29.45:524][414]LogInit: FAudioDevice initialized.
+[2017.03.29-22.29.45:573][414]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.29.45:587][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.29.45
+[2017.03.29-22.29.45:589][414]LogWorld: Bringing up level for play took: 0.015253
+[2017.03.29-22.29.45:593][414]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.256
+[2017.03.29-22.29.45:593][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.29.46:776][553]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.47:365][623]LogBlueprintUserMessages: [spiritOrbOG_C_0] -631.887207
+[2017.03.29-22.29.50:148][955]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.50:583][  7]LogBlueprintUserMessages: [spiritOrbOG_C_1] -822.436646
+[2017.03.29-22.29.50:799][ 33]LogBlueprintUserMessages: [spiritOrbOG_C_1] -587.529785
+[2017.03.29-22.29.51:934][168]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.51:934][168]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.03.29-22.29.55:254][565]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.55:658][613]LogBlueprintUserMessages: [spiritOrbOG_C_2] -1259.661865
+[2017.03.29-22.29.56:972][770]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.56:972][770]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.03.29-22.29.57:693][856]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.29.57:693][856]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.03.29-22.29.59:062][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.29.59:094][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.30.50:687][937]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.30.51:034][937]BlueprintEditorCompileResults: Info [0908.90] Compile of spiritOrbOG successful! [in 346 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.30.51:524][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.30.51:852][975]LogSavePackage: Save=316.38ms
+[2017.03.29-22.30.51:852][975]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG68786CAA45A3ED835FBAC28B73B972C1.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.30.51:855][975]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.31.09:916][380]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.31.10:574][380]BlueprintEditorCompileResults: Info [0928.44] Compile of spiritOrbOG successful! [in 657 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.31.11:079][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.31.11:404][408]LogSavePackage: Save=316.53ms
+[2017.03.29-22.31.11:404][408]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG9BF4DEC3467E0FF2669F28A76516F774.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.31.11:407][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.31.50:342][364]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.31.50:702][364]BlueprintEditorCompileResults: Info [0968.57] Compile of spiritOrbOG successful! [in 359 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.31.51:066][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.31.51:406][387]LogSavePackage: Save=331.59ms
+[2017.03.29-22.31.51:406][387]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG7889CE8E45EB2A9FC611CCA5AFCE69CE.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.31.51:410][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.33.40:356][675]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.33.40:492][675]LogBlueprint:Error: Compiler Error This blueprint (self) is not a KnightOfLight_C, therefore ' Target ' must have a connection.
+[2017.03.29-22.33.40:522][675]LogBlueprint:Error: Compiler Error Variable node  Set NumberOfOrbsOut  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.03.29-22.33.40:809][675]LogBlueprint:Warning: Compiler Warning [1078.68] Compile of spiritOrbOG failed. 2 Fatal Issue(s) 0 Warning(s) [in 452 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.33.40:809][675]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a KnightOfLight_C, therefore ' Target ' must have a connection.
+[2017.03.29-22.33.40:809][675]BlueprintEditorCompileResults:Error: Error Variable node  Set NumberOfOrbsOut  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.03.29-22.33.40:809][675]BlueprintEditorCompileResults:Warning: Warning [1078.68] Compile of spiritOrbOG failed. 2 Fatal Issue(s) 0 Warning(s) [in 452 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.33.41:243][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.33.41:574][703]LogSavePackage: Save=318.99ms
+[2017.03.29-22.33.41:574][703]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG9DC951D54DB5E3FA0ADDA99559DD6489.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.33.41:578][703]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.33.45:426][994]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.33.45:689][994]BlueprintEditorCompileResults: Info [1083.56] Compile of spiritOrbOG successful! [in 262 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.33.46:072][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.33.46:418][ 20]LogSavePackage: Save=338.14ms
+[2017.03.29-22.33.46:418][ 20]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG47E375024D852A2888F7BEBBAC959FBD.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.33.46:423][ 20]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.33.47:467][ 95]LogSavePackage: Save=151.26ms
+[2017.03.29-22.33.47:467][ 95]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_16EC9886145851D69E1B1A9ABAC943903.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.33.47:470][ 95]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.33.48:127][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.33.48:127][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.33.48:127][160]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:33:48 PM)
+[2017.03.29-22.33.48:127][160]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.33.48:136][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008607s)
+[2017.03.29-22.33.48:136][160]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.33.48:136][160]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2017.03.29-22.33.48:136][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.009295s)
+[2017.03.29-22.33.48:177][160]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.33.48:185][160]LogInit: FAudioDevice initialized.
+[2017.03.29-22.33.48:230][160]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.33.48:243][160]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.33.48
+[2017.03.29-22.33.48:245][160]LogWorld: Bringing up level for play took: 0.014064
+[2017.03.29-22.33.48:248][160]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.911
+[2017.03.29-22.33.48:248][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.33.49:640][323]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.33.50:133][381]LogBlueprintUserMessages: [spiritOrbOG_C_0] -1027.563232
+[2017.03.29-22.33.55:647][ 39]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.33.55:682][ 39]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.34.06:618][805]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.34.06:875][805]BlueprintEditorCompileResults: Info [1104.75] Compile of spiritOrbOG successful! [in 257 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.34.07:246][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.34.07:574][827]LogSavePackage: Save=319.77ms
+[2017.03.29-22.34.07:574][827]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG97B7CFBA41CC31AE476CC4BDB2D7E85E.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.34.07:578][827]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.34.08:661][906]LogSavePackage: Save=144.65ms
+[2017.03.29-22.34.08:661][906]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_172BF5EEA4EB613EBDF81998E01C17216.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.34.08:665][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.34.09:197][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.34.09:197][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.34.09:197][958]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:34:09 PM)
+[2017.03.29-22.34.09:197][958]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.34.09:205][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008507s)
+[2017.03.29-22.34.09:206][958]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.34.09:206][958]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2017.03.29-22.34.09:206][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.009221s)
+[2017.03.29-22.34.09:232][958]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.34.09:239][958]LogInit: FAudioDevice initialized.
+[2017.03.29-22.34.09:287][958]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.34.09:300][958]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.34.09
+[2017.03.29-22.34.09:302][958]LogWorld: Bringing up level for play took: 0.014243
+[2017.03.29-22.34.09:306][958]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.031
+[2017.03.29-22.34.09:306][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.34.10:335][ 78]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.34.10:687][120]LogBlueprintUserMessages: [spiritOrbOG_C_0] -1431.313477
+[2017.03.29-22.34.16:556][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.34.16:589][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.34.32:882][979]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.34.33:147][979]BlueprintEditorCompileResults: Info [1131.02] Compile of spiritOrbOG successful! [in 264 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.34.33:523][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.34.33:853][  2]LogSavePackage: Save=321.93ms
+[2017.03.29-22.34.33:853][  2]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG80327CF74633D4C9E15085A54C2B02E8.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.34.33:856][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.34.35:094][ 93]LogSavePackage: Save=140.46ms
+[2017.03.29-22.34.35:094][ 93]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_1DE7818B74DC1047703718A8E524619FA.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.34.35:096][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.34.35:657][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.34.35:658][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.34.35:658][148]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:34:35 PM)
+[2017.03.29-22.34.35:658][148]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.34.35:667][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009703s)
+[2017.03.29-22.34.35:668][148]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.34.35:668][148]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2017.03.29-22.34.35:668][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.010451s)
+[2017.03.29-22.34.35:696][148]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.34.35:704][148]LogInit: FAudioDevice initialized.
+[2017.03.29-22.34.35:750][148]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.34.35:763][148]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.34.35
+[2017.03.29-22.34.35:765][148]LogWorld: Bringing up level for play took: 0.014060
+[2017.03.29-22.34.35:768][148]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.431
+[2017.03.29-22.34.35:768][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.34.36:939][282]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.34.36:939][282]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.attackHitbox
+[2017.03.29-22.34.36:939][282]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.34.37:375][334]LogBlueprintUserMessages: [spiritOrbOG_C_0] -1256.224121
+[2017.03.29-22.34.46:891][470]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.03.29-22.34.50:728][929]LogBlueprintUserMessages: [spiritOrbOG_C_1] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.34.50:728][929]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.attackHitbox
+[2017.03.29-22.34.50:728][929]LogBlueprintUserMessages: [spiritOrbOG_C_1] KnightOfLight_C_0.attackHitbox
+[2017.03.29-22.34.50:728][929]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.34.51:197][985]LogBlueprintUserMessages: [spiritOrbOG_C_1] -1080.145508
+[2017.03.29-22.34.54:329][359]LogBlueprintUserMessages: [spiritOrbOG_C_1] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.34.55:137][455]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.34.55:174][455]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.35.04:547][127]LogSavePackage: Save=139.57ms
+[2017.03.29-22.35.04:547][127]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_11210637B4C2AA6EBA42BECA5A1A80FFE.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.35.04:548][127]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.35.05:153][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.35.05:154][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.35.05:154][188]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:35:05 PM)
+[2017.03.29-22.35.05:154][188]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.35.05:163][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008732s)
+[2017.03.29-22.35.05:163][188]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.35.05:163][188]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2017.03.29-22.35.05:163][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.009502s)
+[2017.03.29-22.35.05:190][188]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.35.05:197][188]LogInit: FAudioDevice initialized.
+[2017.03.29-22.35.05:244][188]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.35.05:257][188]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.35.05
+[2017.03.29-22.35.05:260][188]LogWorld: Bringing up level for play took: 0.014457
+[2017.03.29-22.35.05:263][188]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.074
+[2017.03.29-22.35.05:263][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.35.06:215][299]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.35.06:215][299]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.attackHitbox
+[2017.03.29-22.35.06:215][299]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.35.06:610][346]LogBlueprintUserMessages: [spiritOrbOG_C_0] -1260.145508
+[2017.03.29-22.35.12:540][ 55]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.35.20:293][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.35.20:329][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.35.51:289][186]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.35.51:555][186]BlueprintEditorCompileResults: Info [1209.43] Compile of spiritOrbOG successful! [in 265 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.35.52:140][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.35.52:488][224]LogSavePackage: Save=332.44ms
+[2017.03.29-22.35.52:488][224]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOGFD55F9BC48A1F03D090A2DA598516A80.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.35.52:492][224]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.36.01:927][905]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.36.02:180][905]BlueprintEditorCompileResults: Info [1220.05] Compile of spiritOrbOG successful! [in 253 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.36.02:797][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.36.03:131][948]LogSavePackage: Save=321.14ms
+[2017.03.29-22.36.03:131][948]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOGC420B715405EE4C3E76B329A5F77158C.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.36.03:134][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.36.04:207][ 26]LogSavePackage: Save=135.80ms
+[2017.03.29-22.36.04:207][ 26]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_112CA15BE40B1AD6C3CF4E9852A3DC4C9.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.36.04:210][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.36.04:935][100]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.36.04:935][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.36.04:935][100]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:36:04 PM)
+[2017.03.29-22.36.04:935][100]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.36.04:943][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008507s)
+[2017.03.29-22.36.04:944][100]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.36.04:944][100]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2017.03.29-22.36.04:944][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.009175s)
+[2017.03.29-22.36.04:970][100]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.36.04:978][100]LogInit: FAudioDevice initialized.
+[2017.03.29-22.36.05:022][100]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.36.05:035][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.36.05
+[2017.03.29-22.36.05:038][100]LogWorld: Bringing up level for play took: 0.014360
+[2017.03.29-22.36.05:041][100]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.296
+[2017.03.29-22.36.05:041][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.36.06:499][271]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.36.06:499][271]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.attackHitbox
+[2017.03.29-22.36.06:499][271]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.36.06:950][325]LogBlueprintUserMessages: [spiritOrbOG_C_0] -1230.200195
+[2017.03.29-22.36.14:472][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.36.14:504][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.36.41:173][249]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.36.41:868][249]BlueprintEditorCompileResults: Info [1259.74] Compile of spiritOrbOG successful! [in 695 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.36.42:321][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.36.42:659][275]LogSavePackage: Save=329.37ms
+[2017.03.29-22.36.42:659][275]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOGACDA7B7D4EEE862CAB0D28909841BB41.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.36.42:662][275]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.37.43:577][753]0.283364
+[2017.03.29-22.37.43:577][753]0.296464
+[2017.03.29-22.37.43:594][753]0.306363
+[2017.03.29-22.37.43:629][753]0.313367
+[2017.03.29-22.37.43:646][753]0.368579
+[2017.03.29-22.37.43:663][753]0.593841
+[2017.03.29-22.37.43:680][753]0.914593
+[2017.03.29-22.37.43:680][753]0.934776
+[2017.03.29-22.37.43:698][753]1.244127
+[2017.03.29-22.37.43:716][753]1.448816
+[2017.03.29-22.37.43:734][753]1.519013
+[2017.03.29-22.37.43:803][753]1.517405
+[2017.03.29-22.37.43:820][753]1.504082
+[2017.03.29-22.37.46:144][830]0.550016
+[2017.03.29-22.37.46:181][830]0.596576
+[2017.03.29-22.37.46:199][830]0.708640
+[2017.03.29-22.37.46:218][830]0.829418
+[2017.03.29-22.37.46:218][830]0.838849
+[2017.03.29-22.37.46:236][830]0.954987
+[2017.03.29-22.37.46:254][830]1.034349
+[2017.03.29-22.37.46:272][830]1.071702
+[2017.03.29-22.37.46:290][830]1.080927
+[2017.03.29-22.37.46:307][830]1.085784
+[2017.03.29-22.38.11:834][740]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.38.12:195][740]BlueprintEditorCompileResults: Info [1350.07] Compile of spiritOrbOG successful! [in 360 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.38.12:582][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.38.12:944][762]LogSavePackage: Save=352.62ms
+[2017.03.29-22.38.12:944][762]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG90C4C7A1482089259A1117829931AFCC.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.38.12:948][762]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.38.14:097][846]LogSavePackage: Save=153.58ms
+[2017.03.29-22.38.14:097][846]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_1523D0DFB4B6E09DBF37EDD9A9F12B9EB.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.38.14:100][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.38.14:593][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.38.14:593][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.38.14:594][894]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:38:14 PM)
+[2017.03.29-22.38.14:594][894]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.38.14:604][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009897s)
+[2017.03.29-22.38.14:604][894]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.38.14:604][894]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.03.29-22.38.14:604][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.010733s)
+[2017.03.29-22.38.14:644][894]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.38.14:657][894]LogInit: FAudioDevice initialized.
+[2017.03.29-22.38.14:705][894]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.38.14:718][894]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.38.14
+[2017.03.29-22.38.14:720][894]LogWorld: Bringing up level for play took: 0.014145
+[2017.03.29-22.38.14:724][894]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.613
+[2017.03.29-22.38.14:724][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.38.16:372][ 88]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.38.16:372][ 88]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.38.16:372][ 88]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.attackHitbox
+[2017.03.29-22.38.16:372][ 88]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.38.16:949][157]LogBlueprintUserMessages: [spiritOrbOG_C_0] -900.145508
+[2017.03.29-22.38.29:056][600]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.38.35:936][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.38.35:972][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.39.04:758][325]BlueprintLog: New page: Compile KnightOfLight
+[2017.03.29-22.39.05:246][325]BlueprintEditorCompileResults: Info [1403.12] Compile of KnightOfLight successful! [in 487 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.03.29-22.39.05:840][357]LogSavePackage: Save=164.72ms
+[2017.03.29-22.39.05:841][357]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight2FCE2B484266AD03A629D3BFBD5DE070.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.03.29-22.39.05:844][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.03.29-22.39.13:810][ 31]LogBlueprintUserMessages: [spiritOrbOG_C_61] Hello
+[2017.03.29-22.39.22:179][670]BlueprintLog: New page: Compile spiritOrbOG
+[2017.03.29-22.39.22:448][670]BlueprintEditorCompileResults: Info [1420.32] Compile of spiritOrbOG successful! [in 269 ms] (/Game/bluePrints/spiritOrbOG.spiritOrbOG)
+[2017.03.29-22.39.22:673][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/bluePrints/spiritOrbOG" FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset" SILENT=true
+[2017.03.29-22.39.23:035][682]LogSavePackage: Save=350.16ms
+[2017.03.29-22.39.23:035][682]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/spiritOrbOG38FCCA16496CD34C9DED6A9BB270CD0C.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset'
+[2017.03.29-22.39.23:037][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/bluePrints/spiritOrbOG.uasset
+[2017.03.29-22.39.24:109][761]LogSavePackage: Save=138.63ms
+[2017.03.29-22.39.24:109][761]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_1EA0ED5AC4503AAC6A96F07A476C8E78A.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.03.29-22.39.24:112][761]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.03.29-22.39.24:705][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.39.24:705][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.29-22.39.24:705][820]PIE: New page: PIE session: Level_1 (Mar 29, 2017, 1:39:24 PM)
+[2017.03.29-22.39.24:705][820]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.03.29-22.39.24:718][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013169s)
+[2017.03.29-22.39.24:719][820]LogAIModule: Creating AISystem for world Level_1
+[2017.03.29-22.39.24:719][820]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.03.29-22.39.24:719][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.013986s)
+[2017.03.29-22.39.24:749][820]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.29-22.39.24:758][820]LogInit: FAudioDevice initialized.
+[2017.03.29-22.39.24:808][820]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.03.29-22.39.24:821][820]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.03.29-18.39.24
+[2017.03.29-22.39.24:824][820]LogWorld: Bringing up level for play took: 0.014815
+[2017.03.29-22.39.24:827][820]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.51
+[2017.03.29-22.39.24:827][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.39.25:654][916]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.25:654][916]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.39.25:654][916]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.39.25:654][916]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.attackHitbox
+[2017.03.29-22.39.25:654][916]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.39.26:021][960]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.26:047][963]LogBlueprintUserMessages: [spiritOrbOG_C_0] -1260.145508
+[2017.03.29-22.39.32:353][714]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.32:445][725]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.39.34:381][954]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.34:464][964]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.39.35:441][ 80]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.35:502][ 87]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.39.37:949][379]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.38:015][387]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.39.39:058][511]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.39:091][515]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.39.41:423][793]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.41:507][803]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CollisionCylinder
+[2017.03.29-22.39.48:016][579]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.53:416][224]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.attackHitbox
+[2017.03.29-22.39.53:417][224]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.03.29-22.39.53:525][237]LogBlueprintUserMessages: [spiritOrbOG_C_0] KnightOfLight_C_0.CharacterMesh0 paladin_idle
+[2017.03.29-22.39.53:709][259]LogBlueprintUserMessages: [spiritOrbOG_C_0] -1440.0
+[2017.03.29-22.39.54:171][314]LogBlueprintUserMessages: [spiritOrbOG_C_0] Hello
+[2017.03.29-22.39.56:742][621]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.39.56:777][621]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.03.29-22.42.38:221][754]LogBlueprintUserMessages: [spiritOrbOG_C_115] Hello
+[2017.03.29-22.42.47:350][491]Cmd: QUIT_EDITOR
+[2017.03.29-22.42.48:019][491]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.29-22.42.48:047][491]LogExit: Preparing to exit.
+[2017.03.29-22.42.48:809][491]LogExit: Editor shut down
+[2017.03.29-22.42.48:810][491]LogExit: Transaction tracking system shut down
+[2017.03.29-22.42.49:031][491]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.29-22.42.49:031][491]LogExit: Object subsystem successfully closed.
+[2017.03.29-22.42.49:053][491]LogD3D11RHI: Shutdown
+[2017.03.29-22.42.49:053][491]LogD3D11RHI: CleanupD3DDevice
+[2017.03.29-22.42.49:450][491]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.29-22.42.49:462][491]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2017.03.29-22.42.49:462][491]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2017.03.29-22.42.49:463][491]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2017.03.29-22.42.49:463][491]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2017.03.29-22.42.49:463][491]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2017.03.29-22.42.49:463][491]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2017.03.29-22.42.49:463][491]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2017.03.29-22.42.49:469][491]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2017.03.29-22.42.49:470][491]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2017.03.29-22.42.49:507][491]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2017.03.29-22.42.49:508][491]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2017.03.29-22.42.49:563][491]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2017.03.29-22.42.49:563][491]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2017.03.29-22.42.49:563][491]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2017.03.29-22.42.49:563][491]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2017.03.29-22.42.49:563][491]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2017.03.29-22.42.49:563][491]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2017.03.29-22.42.49:564][491]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module SubstanceEditor (129)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2017.03.29-22.42.49:657][491]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2017.03.29-22.42.49:658][491]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2017.03.29-22.42.49:688][491]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2017.03.29-22.42.49:688][491]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2017.03.29-22.42.49:689][491]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2017.03.29-22.42.49:690][491]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2017.03.29-22.42.49:690][491]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2017.03.29-22.42.49:791][491]LogModuleManager: Shutting down and abandoning module SubstanceCore (94)
+[2017.03.29-22.42.49:791][491]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.03.29-22.42.49:791][491]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.03.29-22.42.49:791][491]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.03.29-22.42.49:791][491]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.03.29-22.42.49:791][491]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.03.29-22.42.49:792][491]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.03.29-22.42.49:793][491]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.03.29-22.42.49:793][491]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.03.29-22.42.49:793][491]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.03.29-22.42.49:793][491]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.03.29-22.42.49:795][491]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.03.29-22.42.49:795][491]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.03.29-22.42.49:795][491]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.03.29-22.42.49:795][491]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.03.29-22.42.49:795][491]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.03.29-22.42.49:795][491]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.03.29-22.42.49:800][491]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.03.29-22.42.50:062][491]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.03.29-22.42.50:062][491]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.03.29-22.42.50:062][491]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.03.29-22.42.50:062][491]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.03.29-22.42.50:154][491]LogDerivedDataCache: Shutdown
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.03.29-22.42.50:154][491]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.03.29-22.42.50:155][491]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.03.29-22.42.50:156][491]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.03.29-22.42.50:156][491]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.03.29-22.42.50:156][491]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.03.29-22.42.50:156][491]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.03.29-22.42.54:197][491]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.03.29-22.42.54:197][491]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.03.29-22.42.54:197][491]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.03.29-22.42.54:197][491]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.29-22.42.54:197][491]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.29-22.42.54:197][491]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.29-22.42.54:197][491]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.29-22.42.54:209][491]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.29-22.42.54:210][491]LogExit: Exiting.
+[2017.03.29-22.42.54:243][491]Log file closed, 03/29/17 18:42:54
