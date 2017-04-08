@@ -1,0 +1,1612 @@
+﻿Log file open, 04/07/17 20:22:10
+LogInit:Display: Running engine for game: SoulStriker
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-485468884) SRandInit(-485468879).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.786602
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.08-00.22.11:583][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.08-00.22.11:583][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.08-00.22.11:672][  0]LogInit: Computer: BMO
+[2017.04.08-00.22.11:672][  0]LogInit: User: Steve
+[2017.04.08-00.22.11:672][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.08-00.22.11:672][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2017.04.08-00.22.11:672][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.04.08-00.22.11:672][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.08-00.22.11:672][  0]LogMemory: Process Physical Memory: 191.93 MB used, 191.93 MB peak
+[2017.04.08-00.22.11:672][  0]LogMemory: Process Virtual Memory: 195.25 MB used, 195.25 MB peak
+[2017.04.08-00.22.11:673][  0]LogMemory: Physical Memory: 4889.20 MB used, 8145.96 MB total
+[2017.04.08-00.22.11:673][  0]LogMemory: Virtual Memory: 553.80 MB used, 134217728.00 MB total
+[2017.04.08-00.22.12:783][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.08-00.22.13:320][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.08-00.22.14:065][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2017.04.08-00.22.14:065][  0]LogD3D11RHI:       2016/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.08-00.22.14:066][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.08-00.22.14:066][  0]LogD3D11RHI:       0/0/4072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.08-00.22.14:066][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.08-00.22.14:101][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.08-00.22.14:101][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.08-00.22.14:101][  0]LogWindows: EnumDisplayDevices:
+[2017.04.08-00.22.14:101][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2017.04.08-00.22.14:101][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.04.08-00.22.14:101][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.04.08-00.22.14:101][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2017.04.08-00.22.14:101][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.08-00.22.14:101][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2017.04.08-00.22.14:101][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.04.08-00.22.14:101][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.04.08-00.22.14:101][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.08-00.22.14:543][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.08-00.22.17:310][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 11)
+[2017.04.08-00.22.17:312][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Intermediate/Shaders/WorkingDirectory/290204/).
+[2017.04.08-00.22.17:312][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steve/AppData/Local/Temp/UnrealShaderWorkingDir/8AD2514E418F4AE018E9EAAA5CBA0107/'.
+[2017.04.08-00.22.17:312][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.08-00.22.33:766][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.08-00.22.33:795][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.08-00.22.33:816][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.08-00.22.33:824][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.08-00.22.33:833][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.08-00.22.33:996][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.08-00.22.34:046][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.08-00.22.34:113][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.08-00.22.34:159][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.08-00.22.34:204][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.08-00.22.34:255][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.08-00.22.34:411][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.08-00.22.34:411][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.08-00.22.34:417][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.08-00.22.34:844][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.08-00.22.34:870][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.08-00.22.34:884][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.08-00.22.34:898][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.08-00.22.35:037][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.08-00.22.35:038][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.08-00.22.37:603][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.08-00.22.46:747][  0]LogDerivedDataCache: Loaded boot cache 9.12s 48MB C:/Users/Steve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.08-00.22.46:748][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Steve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.04.08-00.22.46:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.08-00.22.46:748][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.08-00.22.46:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.08-00.22.46:748][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.08-00.22.47:024][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.08-00.22.47:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steve/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.08-00.23.19:670][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.08-00.23.20:101][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.08-00.23.31:211][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.08-00.23.31:211][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.08-00.23.31:211][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.08-00.23.46:905][  0]LogAssetRegistry: FAssetRegistry took 0.0708 seconds to start up
+[2017.04.08-00.23.47:848][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.442439 seconds
+[2017.04.08-00.23.48:023][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.04.08-00.23.48:023][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.04.08-00.23.48:023][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.08-00.23.48:271][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.08-00.24.04:456][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.08-00.24.04:499][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.08-00.24.54:032][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.04.08-00.24.54:112][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.08-00.24.57:025][  0]SourceControl: Info Source control is disabled
+[2017.04.08-00.24.57:106][  0]SourceControl: Info Source control is disabled
+[2017.04.08-00.24.57:172][  0]SourceControl: Info Source control is disabled
+[2017.04.08-00.24.57:278][  0]SourceControl: Info Source control is disabled
+[2017.04.08-00.24.59:641][  0]LogEngine: Initializing Engine...
+[2017.04.08-00.24.59:829][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.08-00.24.59:844][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.08-00.25.01:948][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.04.08-00.25.02:287][  0]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-00.25.02:315][  0]LogInit: FAudioDevice initialized.
+[2017.04.08-00.25.02:348][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Steve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.08-00.25.02:400][  0]LogInit: Texture streaming: Enabled
+[2017.04.08-00.25.03:532][  0]LogInit: Transaction tracking system initialized
+[2017.04.08-00.25.05:194][  0]BlueprintLog: New page: Editor Load
+[2017.04.08-00.25.19:182][  0]LocalizationService: Info Localization service is disabled
+[2017.04.08-00.25.24:434][  0]LogConsoleResponse:Display: 
+[2017.04.08-00.25.33:905][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.04.08-00.25.33:912][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.08-00.25.35:888][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/' took 0.52s
+[2017.04.08-00.25.41:928][  0]SourceControl: Info Source control is disabled
+[2017.04.08-00.25.42:234][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.08-00.25.42:567][  0]LightingResults: New page: Lighting Build
+[2017.04.08-00.25.43:282][  0]MapCheck: New page: Map Check
+[2017.04.08-00.25.43:282][  0]LightingResults: New page: Lighting Build
+[2017.04.08-00.26.01:524][  0]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.04.08-00.26.01:526][  0]LogBlueprint:Warning: Compiler Warning [0239.57] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 1 Warning(s) [in 43 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.04.08-00.26.01:552][  0]LogBlueprint:Warning: Compiler Warning [0239.60] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.04.08-00.26.01:552][  0]LogBlueprint:Warning: Compiler Warning [0239.60] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.04.08-00.26.01:615][  0]LogBlueprint:Warning: Compiler Warning Node  Unknown  is not referencing a valid level actor
+[2017.04.08-00.26.01:617][  0]LogBlueprint:Warning: Compiler Warning [0239.66] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 1 Warning(s) [in 7 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.04.08-00.26.01:618][  0]LogBlueprint:Warning: Compiler Warning [0239.66] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.04.08-00.26.01:618][  0]LogBlueprint:Warning: Compiler Warning [0239.66] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.04.08-00.26.24:473][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.08-00.26.36:140][  0]LogEditorServer: Finished looking for orphan Actors (0.002 secs)
+[2017.04.08-00.26.36:815][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.08-00.26.36:965][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 150.913ms to complete.
+[2017.04.08-00.26.36:966][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 54.865
+[2017.04.08-00.26.48:592][  0]LogCollectionManager: Loaded 0 collections in 0.014783 seconds
+[2017.04.08-00.26.49:408][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Collections/' took 0.01s
+[2017.04.08-00.26.49:408][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Developers/Steve/Collections/' took 0.01s
+[2017.04.08-00.26.49:408][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Collections/' took 0.01s
+[2017.04.08-00.26.49:408][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2017.04.08-00.26.49:523][  0]LogContentBrowser: Native class hierarchy populated in 0.0699 seconds. Added 2062 classes and 375 folders.
+[2017.04.08-00.26.50:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.049 s
+[2017.04.08-00.26.50:160][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.08-00.26.50:163][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0017 seconds. Added 12 classes and 0 folders.
+[2017.04.08-00.26.50:418][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.04.08-00.26.58:385][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.04.08-00.26.59:236][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.04.08-00.27.02:968][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.08-00.27.04:516][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.08-00.27.05:104][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.04.08-00.27.05:105][  0]LogLoad: Full Startup: 303.15 seconds (BP compile: 4.30 seconds)
+[2017.04.08-00.27.05:105][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.08-00.27.05:105][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.08-00.27.06:004][  0]LogOcInput: OculusInput pre-init called
+[2017.04.08-00.27.08:959][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.08-00.27.16:238][  0]LogRenderer: Reallocating scene render targets to support 1272x604 (Frame:2).
+[2017.04.08-00.27.18:337][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/' took 11.59s
+[2017.04.08-00.27.22:056][  7]LogAssetRegistry: Asset discovery search completed in 215.2054 seconds
+[2017.04.08-00.27.22:084][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.08-00.27.22:086][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.029566 seconds (updated 0 objects)
+[2017.04.08-00.29.56:682][616]Cmd: MAP LOAD FILE="../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.08-00.29.56:830][616]LightingResults: New page: Lighting Build
+[2017.04.08-00.29.56:832][616]LoadErrors: New page: Loading map: Level_1.umap
+[2017.04.08-00.29.56:941][616]MapCheck: New page: Map Check
+[2017.04.08-00.29.56:941][616]LightingResults: New page: Lighting Build
+[2017.04.08-00.30.02:403][616]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-00.30.02:649][616]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.08-00.30.02:799][616]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.08-00.30.02:878][616]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.741ms to complete.
+[2017.04.08-00.30.02:878][616]LogFileHelpers: Loading map 'Level_1' took 6.368
+[2017.04.08-00.42.29:948][646]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0028 seconds. Added 111 classes and 0 folders.
+[2017.04.08-00.44.13:124][426]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_1' took 0.364
+[2017.04.08-00.44.13:229][426]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/KnightOfLight] ([1] browsable assets)...
+[2017.04.08-00.44.13:306][426]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight]
+[2017.04.08-00.44.13:306][426]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/KnightOfLight]
+[2017.04.08-00.44.13:992][426]LogSavePackage: Save=419.49ms
+[2017.04.08-00.44.13:992][426]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight_Auto1F42782134532E5FB84BA6C9B3AD49DB7.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/KnightOfLight_Auto1.uasset'
+[2017.04.08-00.44.14:014][426]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/KnightOfLight_Auto1.uasset
+[2017.04.08-00.44.14:014][426]LogFileHelpers: Auto-saving content packages took 0.879
+[2017.04.08-00.44.49:350][991]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-00.44.50:221][991]BlueprintEditorCompileResults: Info [1368.22] Compile of KnightOfLight successful! [in 828 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-00.44.51:335][ 31]LogSavePackage: Save=192.15ms
+[2017.04.08-00.44.51:335][ 31]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight812BA8DC4ECB539BE11F968752E85649.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-00.44.51:340][ 31]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-00.52.43:698][  2]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-00.52.44:243][  2]BlueprintEditorCompileResults: Info [1842.29] Compile of KnightOfLight successful! [in 544 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-00.52.45:010][ 33]LogSavePackage: Save=168.86ms
+[2017.04.08-00.52.45:010][ 33]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight7AD01143465E48AB46869BB9E5621096.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-00.52.45:013][ 33]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-00.52.50:747][482]LogSavePackage: Save=1065.62ms
+[2017.04.08-00.52.50:747][482]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_165D0021F47D6C2873A5DA090B19FD457.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-00.52.50:752][482]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-00.52.51:410][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.52.51:499][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-00.52.51:585][516]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 3:52:51 PM)
+[2017.04.08-00.52.51:585][516]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-00.52.51:755][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170392s)
+[2017.04.08-00.52.51:756][516]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-00.52.51:756][516]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2017.04.08-00.52.51:776][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.190741s)
+[2017.04.08-00.52.51:898][516]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-00.52.51:906][516]LogInit: FAudioDevice initialized.
+[2017.04.08-00.52.52:291][516]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-00.52.52:440][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-20.52.52
+[2017.04.08-00.52.52:607][516]LogWorld: Bringing up level for play took: 0.183280
+[2017.04.08-00.52.52:749][516]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
+[2017.04.08-00.52.52:941][516]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 2.545
+[2017.04.08-00.52.52:942][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.54.37:577][928]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.54.39:616][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.54.39:907][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.54.48:127][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.54.48:127][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-00.54.48:127][ 92]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 3:54:48 PM)
+[2017.04.08-00.54.48:127][ 92]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-00.54.48:141][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014055s)
+[2017.04.08-00.54.48:142][ 92]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-00.54.48:142][ 92]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2017.04.08-00.54.48:142][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.015102s)
+[2017.04.08-00.54.48:164][ 92]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-00.54.48:169][ 92]LogInit: FAudioDevice initialized.
+[2017.04.08-00.54.48:265][ 92]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-00.54.48:287][ 92]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-20.54.48
+[2017.04.08-00.54.48:296][ 92]LogWorld: Bringing up level for play took: 0.029993
+[2017.04.08-00.54.48:308][ 92]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.089
+[2017.04.08-00.54.48:308][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.55.45:187][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.55.45:221][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.55.51:638][511]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-00.55.52:221][511]BlueprintEditorCompileResults: Info [2030.27] Compile of KnightOfLight successful! [in 583 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-00.55.52:900][537]LogSavePackage: Save=174.73ms
+[2017.04.08-00.55.52:900][537]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLightDBF7B08C475D70616FB4A7895C04B088.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-00.55.52:908][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-00.55.55:189][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.55.55:189][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-00.55.55:189][777]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 3:55:55 PM)
+[2017.04.08-00.55.55:189][777]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-00.55.55:204][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014950s)
+[2017.04.08-00.55.55:205][777]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-00.55.55:205][777]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.04.08-00.55.55:205][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.015880s)
+[2017.04.08-00.55.55:228][777]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-00.55.55:234][777]LogInit: FAudioDevice initialized.
+[2017.04.08-00.55.55:282][777]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-00.55.55:298][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-20.55.55
+[2017.04.08-00.55.55:304][777]LogWorld: Bringing up level for play took: 0.022016
+[2017.04.08-00.55.55:333][777]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.936
+[2017.04.08-00.55.55:333][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.55.58:960][204]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.55.58:960][204]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.00:078][336]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.00:078][336]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.03:929][798]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.03:929][798]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.05:171][947]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.05:171][947]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.06:137][ 63]LogBlueprintUserMessages: [KnightOfLight_C_0] started blocking
+[2017.04.08-00.56.13:380][931]LogBlueprintUserMessages: [KnightOfLight_C_0] finished blocking
+[2017.04.08-00.56.13:714][971]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.13:714][971]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.15:007][126]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.15:007][126]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.15:974][242]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.15:974][242]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.21:290][879]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.21:290][879]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.22:443][ 17]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.22:443][ 17]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.29:385][848]LogBlueprintUserMessages: [KnightOfLight_C_0] started blocking
+[2017.04.08-00.56.29:527][865]LogBlueprintUserMessages: [KnightOfLight_C_0] finished blocking
+[2017.04.08-00.56.38:858][983]LogBlueprintUserMessages: [KnightOfLight_C_0] started blocking
+[2017.04.08-00.56.39:858][103]LogBlueprintUserMessages: [KnightOfLight_C_0] finished blocking
+[2017.04.08-00.56.41:253][270]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.41:253][270]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.41:712][325]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.41:712][325]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.56.42:078][369]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.56.42:078][369]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.40:062][317]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.40:062][317]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.40:279][343]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.40:279][343]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.40:487][368]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.40:487][368]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.40:687][392]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.40:687][392]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.40:887][416]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.40:887][416]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.41:062][437]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.41:062][437]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.41:254][460]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.41:254][460]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.41:437][482]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.41:437][482]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.41:614][503]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.41:614][503]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.41:797][525]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.41:798][525]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.41:981][547]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.41:981][547]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.42:167][569]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.42:167][569]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.42:358][592]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.42:358][592]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.42:541][614]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.42:541][614]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.42:735][637]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.42:735][637]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.42:909][658]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.42:909][658]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.46:369][ 73]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.57.47:369][193]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.57.49:373][433]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.57.50:523][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.57.50:556][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.57.53:331][894]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.57.53:331][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-00.57.53:331][894]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 3:57:53 PM)
+[2017.04.08-00.57.53:331][894]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-00.57.53:346][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015147s)
+[2017.04.08-00.57.53:347][894]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-00.57.53:347][894]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2017.04.08-00.57.53:347][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.016199s)
+[2017.04.08-00.57.53:374][894]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-00.57.53:379][894]LogInit: FAudioDevice initialized.
+[2017.04.08-00.57.53:429][894]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-00.57.53:446][894]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-20.57.53
+[2017.04.08-00.57.53:448][894]LogWorld: Bringing up level for play took: 0.018463
+[2017.04.08-00.57.53:452][894]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 1.056
+[2017.04.08-00.57.53:452][894]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-00.57.59:532][607]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.59:532][607]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.59:749][633]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.59:749][633]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.57.59:949][657]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.57.59:949][657]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.00:149][681]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.00:149][681]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.00:340][704]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.00:340][704]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.00:532][727]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.00:532][727]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.00:759][754]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.00:759][754]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.01:492][842]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.01:492][842]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.02:152][921]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.02:152][921]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.02:821][  1]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.02:821][  1]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.03:581][ 92]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.03:581][ 92]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.04:948][256]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.04:948][256]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.05:567][330]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.05:567][330]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.06:159][401]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.06:159][401]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.06:744][471]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.06:744][471]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.07:504][562]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.07:504][562]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.08:321][660]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.08:322][660]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.08:880][727]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.08:880][727]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.58.35:496][917]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.58.37:762][187]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:662][274]LogBlueprintUserMessages: [spiritOrbOG_C_0] -359.895874
+[2017.04.08-00.58.38:688][274]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:688][274]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:03A5
+[2017.04.08-00.58.38:688][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_Switch' from node: Set Collision Enabled in graph: EventGraph in object: Switch with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2017.04.08-00.58.38:688][274]LogScript:Warning: Accessed None
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:03BA
+[2017.04.08-00.58.38:688][274]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Switch' from node: Set Collision Enabled in graph: EventGraph in object: Switch with description: Accessed None
+[2017.04.08-00.58.38:688][274]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:688][274]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:0051
+[2017.04.08-00.58.38:688][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2017.04.08-00.58.38:688][274]LogScript:Warning: Accessed None
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:0066
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None
+[2017.04.08-00.58.38:689][274]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:00CA
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:00DF
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None
+[2017.04.08-00.58.38:689][274]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:0143
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:0158
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None
+[2017.04.08-00.58.38:689][274]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:01BC
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_Switch' from node: Set Collision Enabled in graph: EventGraph in object: Switch with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:01D1
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Switch' from node: Set Collision Enabled in graph: EventGraph in object: Switch with description: Accessed None
+[2017.04.08-00.58.38:689][274]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:0235
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:024A
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None
+[2017.04.08-00.58.38:689][274]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:02AE
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:02C3
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None
+[2017.04.08-00.58.38:689][274]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:0327
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.08-00.58.38:689][274]LogScript:Warning: Accessed None
+	Switch_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.Switch_142
+	Function /Game/bluePrints/Switch.Switch_C:ExecuteUbergraph_Switch:033C
+[2017.04.08-00.58.38:689][274]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Switch' from node: Set Visibility in graph: EventGraph in object: Switch with description: Accessed None
+[2017.04.08-00.58.39:203][336]LogScript:Warning: Attempted to access spiritOrbOG_C_0 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_0 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-00.58.39:203][336]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_0 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_0 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_0 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_0 is pending kill
+[2017.04.08-00.58.40:613][505]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.41:499][611]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.58.42:503][731]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.58.44:505][966]LogBlueprintUserMessages: [skeletonOLD_365] Slice!
+[2017.04.08-00.58.44:644][983]LogScript:Warning: Attempted to access spiritOrbOG_C_2 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_2 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-00.58.44:644][983]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_2 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_2 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_2 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_2 is pending kill
+[2017.04.08-00.58.46:919][255]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.47:497][324]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.58.48:323][423]LogScript:Warning: Attempted to access spiritOrbOG_C_3 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_3 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-00.58.48:323][423]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_3 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_3 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_3 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_3 is pending kill
+[2017.04.08-00.58.48:498][444]LogBlueprintUserMessages: [skeletonOLD_365] SLASH! Slash! Slash!
+[2017.04.08-00.58.50:148][642]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.52:576][933]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.04.08-00.58.54:790][197]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.55:908][331]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.04.08-00.58.57:646][539]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.58.58:704][666]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.04.08-00.58.59:923][812]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.59.00:498][881]LogBlueprintUserMessages: [skeletonOLD_365] Stab...Stab!
+[2017.04.08-00.59.01:074][950]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.04.08-00.59.03:495][240]LogBlueprintUserMessages: [skeletonOLD_365] Stab...Stab!
+[2017.04.08-00.59.04:496][360]LogBlueprintUserMessages: [skeletonOLD_365] SLASH! Slash! Slash!
+[2017.04.08-00.59.04:587][371]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.04.08-00.59.05:501][480]LogBlueprintUserMessages: [skeletonOLD_365] Slice!
+[2017.04.08-00.59.06:504][600]LogBlueprintUserMessages: [skeletonOLD_365] Stab...Stab!
+[2017.04.08-00.59.07:411][709]LogScript:Warning: Attempted to access spiritOrbOG_C_9 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_9 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-00.59.07:411][709]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_9 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_9 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_9 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_9 is pending kill
+[2017.04.08-00.59.09:180][921]LogScript:Warning: Attempted to access spiritOrbOG_C_10 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_10 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-00.59.09:181][921]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_10 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_10 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_10 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_10 is pending kill
+[2017.04.08-00.59.09:499][959]LogBlueprintUserMessages: [skeletonOLD_365] Stab...Stab!
+[2017.04.08-00.59.10:417][ 69]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.59.11:017][141]LogBlueprintUserMessages: [spiritOrbOG_C_11] 900.075073
+[2017.04.08-00.59.11:500][199]LogBlueprintUserMessages: [skeletonOLD_365] Slice!
+[2017.04.08-00.59.12:501][319]LogBlueprintUserMessages: [skeletonOLD_365] SLASH! Slash! Slash!
+[2017.04.08-00.59.14:499][558]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.59.15:502][678]LogBlueprintUserMessages: [skeletonOLD_365] DASH!@
+[2017.04.08-00.59.16:502][798]LogBlueprintUserMessages: [skeletonOLD_365] Slice!
+[2017.04.08-00.59.17:262][889]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.59.19:672][178]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.59.20:838][318]LogScript:Warning: Attempted to access spiritOrbOG_C_14 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_14 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-00.59.20:838][318]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_14 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_14 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_14 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_14 is pending kill
+[2017.04.08-00.59.31:163][556]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.59.31:831][636]LogBlueprintUserMessages: [spiritOrbOG_C_16] -1800.0
+[2017.04.08-00.59.36:669][216]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.59.37:145][273]LogBlueprintUserMessages: [spiritOrbOG_C_17] -1800.0
+[2017.04.08-00.59.44:350][137]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.59.44:934][207]LogBlueprintUserMessages: [spiritOrbOG_C_18] -900.145508
+[2017.04.08-00.59.47:496][514]LogBlueprintUserMessages: [skeletonOLD2] DASH!@
+[2017.04.08-00.59.48:595][646]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-00.59.49:497][754]LogBlueprintUserMessages: [skeletonOLD2] DASH!@
+[2017.04.08-00.59.49:975][811]LogScript:Warning: Attempted to access spiritOrbOG_C_19 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_19 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-00.59.49:975][811]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_19 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_19 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_19 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_19 is pending kill
+[2017.04.08-00.59.50:501][874]LogBlueprintUserMessages: [skeletonOLD2] SLASH! Slash! Slash!
+[2017.04.08-00.59.50:583][884]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.59.51:303][970]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.59.51:495][993]LogBlueprintUserMessages: [skeletonOLD2] Stab...Stab!
+[2017.04.08-00.59.51:937][ 46]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.59.52:498][113]LogBlueprintUserMessages: [skeletonOLD2] SLASH! Slash! Slash!
+[2017.04.08-00.59.52:522][116]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.59.53:166][193]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-00.59.53:496][231]LogBlueprintUserMessages: [skeletonOLD2] SLASH! Slash! Slash!
+[2017.04.08-00.59.53:788][266]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.13:671][839]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.16:887][225]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.04.08-01.01.18:231][386]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.18:256][389]LogBlueprintUserMessages: [KnightOfLight_C_0] warping Animation!
+[2017.04.08-01.01.18:898][466]LogBlueprintUserMessages: [spiritOrbOG_C_21] -720.145508
+[2017.04.08-01.01.20:716][684]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.21:400][766]LogBlueprintUserMessages: [spiritOrbOG_C_22] -709.813599
+[2017.04.08-01.01.25:031][201]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.25:423][248]LogBlueprintUserMessages: [spiritOrbOG_C_23] -1260.145508
+[2017.04.08-01.01.27:740][526]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.27:900][545]LogBlueprintUserMessages: [spiritOrbOG_C_24] 0.053464
+[2017.04.08-01.01.28:192][580]LogBlueprintUserMessages: [spiritOrbOG_C_24] 0.053335
+[2017.04.08-01.01.29:262][708]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/bluePrints/superWallTop.superWallTop_C:BndEvt__Box_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature
+	Function /Game/bluePrints/superWallTop.superWallTop_C:ExecuteUbergraph_superWallTop
+	Function /Game/bluePrints/spiritOrbOG.spiritOrbOG_C:Ball Bounce Non-Destructible
+
+
+[2017.04.08-01.01.29:262][708]LogBlueprintUserMessages: [spiritOrbOG_C_24] -0.052949
+[2017.04.08-01.01.31:012][918]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.31:547][982]LogBlueprintUserMessages: [spiritOrbOG_C_25] -919.052368
+[2017.04.08-01.01.32:716][122]LogBlueprintUserMessages: [spiritOrbOG_C_25] 306.500488
+[2017.04.08-01.01.35:350][438]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.36:001][516]LogBlueprintUserMessages: [spiritOrbOG_C_26] -428.97998
+[2017.04.08-01.01.38:152][774]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.38:719][842]LogBlueprintUserMessages: [spiritOrbOG_C_27] 929.089722
+[2017.04.08-01.01.39:011][877]LogBlueprintUserMessages: [spiritOrbOG_C_27] 696.903992
+[2017.04.08-01.01.41:465][171]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.42:017][237]LogBlueprintUserMessages: [spiritOrbOG_C_28] 819.08551
+[2017.04.08-01.01.42:292][270]LogBlueprintUserMessages: [spiritOrbOG_C_28] 512.150391
+[2017.04.08-01.01.44:201][499]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.44:343][516]LogBlueprintUserMessages: [spiritOrbOG_C_29] -1620.419312
+[2017.04.08-01.01.45:269][627]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.45:269][627]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.45:270][627]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.01.45:270][627]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.45:270][627]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.45:270][627]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.01.46:142][729]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.46:142][729]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.46:158][730]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.46:158][730]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.46:158][730]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.01.46:452][765]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.46:452][765]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.46:502][771]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.46:502][771]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.46:502][771]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.01.46:793][806]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.46:793][806]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.47:753][921]LogScript:Warning: Attempted to access spiritOrbOG_C_29 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_29 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-01.01.47:753][921]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_29 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_29 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_29 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_29 is pending kill
+[2017.04.08-01.01.49:357][111]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.49:541][133]LogBlueprintUserMessages: [spiritOrbOG_C_30] 1615.9823
+[2017.04.08-01.01.50:299][224]LogBlueprintUserMessages: [spiritOrbOG_C_30] -679.221985
+[2017.04.08-01.01.50:340][229]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	BTT_DestroyMemory_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.AI_Controller_C_1.BTComponent.BTT_DestroyMemory_C_0
+	Function /Game/bluePrints/AI_Blueprints/BTT_DestroyMemory.BTT_DestroyMemory_C:ExecuteUbergraph_BTT_DestroyMemory:0049
+[2017.04.08-01.01.50:341][229]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_BTT_DestroyMemory' from node: DestroyActor in graph: EventGraph in object: BTT_DestroyMemory with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.04.08-01.01.51:842][409]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.51:842][409]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.52:435][480]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.52:435][480]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.53:019][550]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.53:019][550]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.53:662][625]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.53:662][625]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.54:253][696]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.54:253][696]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.54:703][750]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.54:703][750]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.54:920][776]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.54:920][776]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.55:095][797]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.55:095][797]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.55:279][819]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.55:279][819]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.55:454][840]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.55:454][840]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.55:620][860]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.55:620][860]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.55:813][883]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.55:813][883]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.55:988][904]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.55:988][904]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.56:163][925]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.56:163][925]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.56:346][947]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.56:346][947]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.56:538][970]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.56:538][970]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.56:721][992]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.56:721][992]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.56:904][ 14]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.56:904][ 14]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.57:088][ 36]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.01.57:088][ 36]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.01.57:271][ 58]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/bluePrints/superWallTop.superWallTop_C:BndEvt__Box_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature
+	Function /Game/bluePrints/superWallTop.superWallTop_C:ExecuteUbergraph_superWallTop
+	Function /Game/bluePrints/spiritOrbOG.spiritOrbOG_C:Ball Bounce Non-Destructible
+
+
+[2017.04.08-01.01.57:271][ 58]LogScriptCore:Warning: Divide by zero
+Script call stack:
+	Function /Game/bluePrints/superWallTop.superWallTop_C:BndEvt__Box_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature
+	Function /Game/bluePrints/superWallTop.superWallTop_C:ExecuteUbergraph_superWallTop
+	Function /Game/bluePrints/spiritOrbOG.spiritOrbOG_C:Ball Bounce Non-Destructible
+
+
+[2017.04.08-01.01.57:272][ 58]LogBlueprintUserMessages: [spiritOrbOG_C_30] 0.0
+[2017.04.08-01.01.57:272][ 58]LogScript:Warning: Attempted to access spiritOrbOG_C_30 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_30 is pending kill
+	KnightOfLight_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.KnightOfLight_C_0
+	Function /Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight_C:ExecuteUbergraph_KnightOfLight:0FC7
+[2017.04.08-01.01.57:272][ 58]PIE:Error: Error Blueprint Runtime Error: Attempted to access spiritOrbOG_C_30 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_30 is pending kill from function: 'ExecuteUbergraph_KnightOfLight' from node: DestroyActor in graph: EventGraph in object: KnightOfLight with description: Attempted to access spiritOrbOG_C_30 via property CallFunc_Array_Get_Item, but spiritOrbOG_C_30 is pending kill
+[2017.04.08-01.01.57:280][ 59]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.57:280][ 59]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.57:280][ 59]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.01.57:288][ 60]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.57:288][ 60]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.57:288][ 60]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.01.58:514][207]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.58:515][207]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.58:515][207]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.01.59:166][285]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.59:166][285]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.59:166][285]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.01.59:516][327]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.59:516][327]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.01.59:516][327]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.00:367][429]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.02.00:516][447]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.00:516][447]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.00:517][447]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.00:700][469]LogBlueprintUserMessages: [spiritOrbOG_C_31] 1488.360352
+[2017.04.08-01.02.01:161][524]LogBlueprintUserMessages: [spiritOrbOG_C_31] -1138.24707
+[2017.04.08-01.02.01:169][525]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.01:169][525]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.01:169][525]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.01:846][606]LogBlueprintUserMessages: [spiritOrbOG_C_31] 525.548462
+[2017.04.08-01.02.02:522][687]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.02:522][687]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.02:522][687]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.03:175][765]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.03:175][765]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.03:175][765]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.03:433][796]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.02.03:525][807]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.03:525][807]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.03:525][807]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.03:642][821]LogBlueprintUserMessages: [spiritOrbOG_C_32] 1620.145508
+[2017.04.08-01.02.05:530][ 47]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.05:530][ 47]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.05:530][ 47]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.06:182][125]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.06:182][125]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.06:182][125]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.07:182][245]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.07:182][245]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.07:182][245]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.07:725][310]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.02.08:533][407]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.08:533][407]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.08:533][407]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.09:183][485]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.09:183][485]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.09:183][485]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.09:534][527]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.09:534][527]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.09:534][527]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.10:119][597]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.10:119][597]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.10:119][597]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.11:186][725]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.11:186][725]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.11:186][725]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.11:494][762]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.02.12:189][845]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.12:189][845]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.12:189][845]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.12:264][854]LogBlueprintUserMessages: [spiritOrbOG_C_34] -531.431396
+[2017.04.08-01.02.12:540][887]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.12:540][887]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.12:540][887]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.15:355][224]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.15:355][224]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.15:355][224]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.15:363][225]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.15:363][225]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.15:363][225]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.16:171][322]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.02.16:480][359]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.16:480][359]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.16:480][359]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.16:480][359]LogBlueprintUserMessages: [spiritOrbOG_C_35] -1439.996826
+[2017.04.08-01.02.16:847][403]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.16:847][403]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.16:847][403]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.17:548][487]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.17:548][487]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.17:548][487]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.17:915][531]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.17:915][531]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.17:915][531]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.18:339][582]LogScript:Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	BTT_DestroyMemory_C /Game/Maps/UEDPIE_0_Level_1.Level_1:PersistentLevel.AI_Controller_C_1.BTComponent.BTT_DestroyMemory_C_0
+	Function /Game/bluePrints/AI_Blueprints/BTT_DestroyMemory.BTT_DestroyMemory_C:ExecuteUbergraph_BTT_DestroyMemory:0049
+[2017.04.08-01.02.18:340][582]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_BTT_DestroyMemory' from node: DestroyActor in graph: EventGraph in object: BTT_DestroyMemory with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.04.08-01.02.18:931][653]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.18:931][653]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.18:931][653]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.18:931][653]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.18:932][653]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.18:932][653]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.20:548][847]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.20:548][847]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.20:548][847]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.21:549][967]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.21:549][967]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.21:550][967]LogBlueprintUserMessages: [BTT_Attack_C_0] 0
+[2017.04.08-01.02.23:202][165]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.23:202][165]LogBlueprintUserMessages: [BTT_Attack_C_0] Hello
+[2017.04.08-01.02.23:202][165]LogBlueprintUserMessages: [BTT_Attack_C_0] 1
+[2017.04.08-01.02.23:243][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.02.23:276][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.02.27:458][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.02.27:459][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.02.27:459][656]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:02:27 PM)
+[2017.04.08-01.02.27:459][656]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.02.27:475][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015853s)
+[2017.04.08-01.02.27:475][656]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.02.27:475][656]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.04.08-01.02.27:475][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.016656s)
+[2017.04.08-01.02.27:500][656]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.02.27:507][656]LogInit: FAudioDevice initialized.
+[2017.04.08-01.02.27:552][656]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.02.27:566][656]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.02.27
+[2017.04.08-01.02.27:569][656]LogWorld: Bringing up level for play took: 0.016366
+[2017.04.08-01.02.27:572][656]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.824
+[2017.04.08-01.02.27:573][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.02.30:026][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.02.30:057][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.02.37:638][636]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.02.38:334][636]BlueprintEditorCompileResults: Info [2436.38] Compile of KnightOfLight successful! [in 696 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.02.39:154][665]LogSavePackage: Save=174.65ms
+[2017.04.08-01.02.39:154][665]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight63430F5A48DF807133682BAEB8C5DBD7.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.02.39:158][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.05.59:259][448]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.05.59:608][448]BlueprintEditorCompileResults: Info [2637.65] Compile of KnightOfLight successful! [in 349 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.06.00:343][465]LogSavePackage: Save=195.37ms
+[2017.04.08-01.06.00:343][465]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight3FB3A0484B13F34B846F3092459EF21E.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.06.00:347][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.06.02:665][628]LogSavePackage: Save=549.01ms
+[2017.04.08-01.06.02:665][628]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_122AE4A284C47C45677BDBD9620A728EB.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-01.06.02:667][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-01.06.03:209][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.06.03:210][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.06.03:210][681]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:06:03 PM)
+[2017.04.08-01.06.03:210][681]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.06.03:223][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013039s)
+[2017.04.08-01.06.03:223][681]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.06.03:223][681]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2017.04.08-01.06.03:224][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.013846s)
+[2017.04.08-01.06.03:252][681]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.06.03:258][681]LogInit: FAudioDevice initialized.
+[2017.04.08-01.06.03:304][681]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.06.03:319][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.06.03
+[2017.04.08-01.06.03:322][681]LogWorld: Bringing up level for play took: 0.016826
+[2017.04.08-01.06.03:325][681]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.929
+[2017.04.08-01.06.03:325][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.06.20:158][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.06.20:190][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.09.47:654][737]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.09.48:006][737]BlueprintEditorCompileResults: Info [2866.05] Compile of KnightOfLight successful! [in 351 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.09.48:758][776]LogSavePackage: Save=167.01ms
+[2017.04.08-01.09.48:758][776]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLightC60914E44BC047C54523ED985E49CAB6.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.09.48:761][776]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.10.03:024][152]LogEditorTransaction: Undo Move Node
+[2017.04.08-01.10.19:085][728]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.10.19:406][728]BlueprintEditorCompileResults: Info [2897.45] Compile of KnightOfLight successful! [in 321 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.10.20:018][734]LogSavePackage: Save=195.45ms
+[2017.04.08-01.10.20:018][734]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight499DA04B4647CF50E7CE18ACAD90E5D2.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.10.20:021][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.10.22:896][ 41]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.10.22:896][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.10.22:896][ 41]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:10:22 PM)
+[2017.04.08-01.10.22:896][ 41]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.10.22:910][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014178s)
+[2017.04.08-01.10.22:911][ 41]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.10.22:911][ 41]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.04.08-01.10.22:911][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.015219s)
+[2017.04.08-01.10.22:938][ 41]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.10.22:945][ 41]LogInit: FAudioDevice initialized.
+[2017.04.08-01.10.22:990][ 41]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.10.23:005][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.10.23
+[2017.04.08-01.10.23:007][ 41]LogWorld: Bringing up level for play took: 0.016728
+[2017.04.08-01.10.23:011][ 41]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.615
+[2017.04.08-01.10.23:011][ 41]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.10.37:887][823]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.10.37:919][823]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.10.41:028][165]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.04.08-01.10.44:628][463]LogRenderer: Reallocating scene render targets to support 1272x720 (Frame:189480).
+[2017.04.08-01.10.53:387][342]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.04.08-01.10.54:246][432]Cmd: TRANSACTION UNDO
+[2017.04.08-01.10.54:246][432]LogEditorTransaction: Undo Move Actors
+[2017.04.08-01.10.57:643][749]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.04.08-01.10.59:906][977]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.04.08-01.11.01:301][ 73]LogSavePackage: Save=543.91ms
+[2017.04.08-01.11.01:301][ 73]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_161E72CCF4D4EF54D9CBB5AB838AB46FD.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-01.11.01:304][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-01.11.43:784][336]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.11.44:151][336]BlueprintEditorCompileResults: Info [2982.20] Compile of KnightOfLight successful! [in 367 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.11.45:060][376]LogSavePackage: Save=167.62ms
+[2017.04.08-01.11.45:060][376]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight9DB399AE45210D5B164D2380EB42F276.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.11.45:063][376]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.14.16:708][432]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.14.17:032][432]BlueprintEditorCompileResults: Info [3135.08] Compile of KnightOfLight successful! [in 324 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.14.17:746][454]LogSavePackage: Save=172.59ms
+[2017.04.08-01.14.17:746][454]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLightA3ECE56C4E7E56CF7AA67AB7093C0575.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.14.17:749][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.14.20:058][615]LogSavePackage: Save=552.48ms
+[2017.04.08-01.14.20:058][615]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_1F6E7CA404B1912C97E23E88F437C794F.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-01.14.20:060][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-01.14.20:891][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.14.20:891][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.14.20:891][703]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:14:20 PM)
+[2017.04.08-01.14.20:891][703]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.14.20:905][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013810s)
+[2017.04.08-01.14.20:906][703]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.14.20:906][703]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2017.04.08-01.14.20:906][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.014699s)
+[2017.04.08-01.14.20:969][703]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.14.20:975][703]LogInit: FAudioDevice initialized.
+[2017.04.08-01.14.21:058][703]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.14.21:078][703]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.14.21
+[2017.04.08-01.14.21:080][703]LogWorld: Bringing up level for play took: 0.020698
+[2017.04.08-01.14.21:084][703]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.688
+[2017.04.08-01.14.21:085][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.14.45:674][649]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.45:674][649]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.46:393][735]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.46:393][735]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.47:915][917]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.47:915][917]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.49:544][112]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.49:544][112]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.51:835][387]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.51:835][387]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.53:010][528]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.53:010][528]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.54:295][682]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.54:296][682]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.55:115][780]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.55:115][780]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.56:505][946]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.56:505][946]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.57:439][ 58]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.57:439][ 58]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.58:239][154]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.58:239][154]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.58:472][182]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.58:473][182]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.58:664][205]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.58:664][205]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.58:847][227]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.58:847][227]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.59:031][249]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.59:031][249]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.59:681][327]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.59:681][327]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.14.59:898][353]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.14.59:898][353]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.00:066][373]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.00:066][373]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.00:241][394]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.00:241][394]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.00:407][414]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.00:407][414]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.00:591][436]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.00:591][436]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.00:777][458]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.00:777][458]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.01:321][523]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.01:321][523]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.01:521][547]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.01:521][547]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.01:696][568]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.01:696][568]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.01:881][590]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.01:881][590]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.02:048][610]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.02:048][610]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.02:231][632]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.02:231][632]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.02:423][655]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.02:423][655]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.02:606][677]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.02:606][677]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.02:798][700]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.02:798][700]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.03:023][727]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.03:023][727]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.03:231][752]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.03:231][752]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.03:447][778]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.03:447][778]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.03:656][803]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.03:656][803]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.03:856][827]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.03:856][827]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.04:048][850]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.04:048][850]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.04:239][873]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.04:239][873]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.04:431][896]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.04:431][896]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.04:623][919]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.04:623][919]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.04:807][941]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.04:807][941]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.15.05:015][966]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.15.05:015][966]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.16.47:875][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.16.47:920][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.18.31:258][373]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.18.32:189][373]BlueprintEditorCompileResults: Info [3390.23] Compile of KnightOfLight successful! [in 930 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.18.32:971][419]LogSavePackage: Save=167.74ms
+[2017.04.08-01.18.32:971][419]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLightA6D2BCF1414ACD5483FB02BE94F056B9.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.18.32:975][419]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.18.39:326][ 23]LogSavePackage: Save=553.45ms
+[2017.04.08-01.18.39:326][ 23]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_1219FEA8040EBD7E86C520793B2FF03EC.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-01.18.39:328][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-01.18.40:972][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.18.40:973][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.18.40:973][194]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:18:40 PM)
+[2017.04.08-01.18.40:973][194]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.18.40:988][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014671s)
+[2017.04.08-01.18.40:988][194]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.18.40:988][194]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2017.04.08-01.18.40:988][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.015516s)
+[2017.04.08-01.18.41:013][194]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.18.41:019][194]LogInit: FAudioDevice initialized.
+[2017.04.08-01.18.41:062][194]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.18.41:078][194]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.18.41
+[2017.04.08-01.18.41:080][194]LogWorld: Bringing up level for play took: 0.017880
+[2017.04.08-01.18.41:084][194]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.688
+[2017.04.08-01.18.41:084][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.18.50:700][346]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.18.50:742][346]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.19.06:985][671]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.19.07:867][671]BlueprintEditorCompileResults: Info [3425.91] Compile of KnightOfLight successful! [in 881 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.19.08:751][727]LogSavePackage: Save=170.49ms
+[2017.04.08-01.19.08:751][727]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLightFFC9287A4DAAD53D47B93F9696D1FDFA.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.19.08:754][727]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.19.10:907][879]LogSavePackage: Save=570.18ms
+[2017.04.08-01.19.10:907][879]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_13DA484E84878FA8B29881DAD096AFED4.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-01.19.10:909][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-01.19.13:863][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.19.13:863][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.19.13:863][219]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:19:13 PM)
+[2017.04.08-01.19.13:863][219]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.19.13:876][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012986s)
+[2017.04.08-01.19.13:877][219]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.19.13:877][219]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.04.08-01.19.13:877][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.013741s)
+[2017.04.08-01.19.13:902][219]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.19.13:907][219]LogInit: FAudioDevice initialized.
+[2017.04.08-01.19.13:955][219]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.19.13:987][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.19.13
+[2017.04.08-01.19.13:990][219]LogWorld: Bringing up level for play took: 0.033430
+[2017.04.08-01.19.13:993][219]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.403
+[2017.04.08-01.19.13:994][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.19.17:828][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.19.17:866][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.19.55:814][448]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.19.56:166][448]BlueprintEditorCompileResults: Info [3474.21] Compile of KnightOfLight successful! [in 351 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.19.56:981][474]LogSavePackage: Save=176.49ms
+[2017.04.08-01.19.56:981][474]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight9A765DCD429274878521E7B560977606.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.19.56:984][474]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.20.05:103][996]LogSavePackage: Save=564.68ms
+[2017.04.08-01.20.05:103][996]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_14673B42844E9F5518589F388ACE56FED.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-01.20.05:105][996]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-01.20.05:571][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.20.05:571][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.20.05:571][ 18]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:20:05 PM)
+[2017.04.08-01.20.05:571][ 18]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.20.05:585][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013615s)
+[2017.04.08-01.20.05:585][ 18]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.20.05:586][ 18]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.04.08-01.20.05:586][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.014497s)
+[2017.04.08-01.20.05:613][ 18]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.20.05:619][ 18]LogInit: FAudioDevice initialized.
+[2017.04.08-01.20.05:668][ 18]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.20.05:683][ 18]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.20.05
+[2017.04.08-01.20.05:686][ 18]LogWorld: Bringing up level for play took: 0.016582
+[2017.04.08-01.20.05:689][ 18]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.707
+[2017.04.08-01.20.05:690][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.20.08:530][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.20.08:569][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.20.09:610][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.20.09:611][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.20.09:611][474]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:20:09 PM)
+[2017.04.08-01.20.09:611][474]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.20.09:626][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014701s)
+[2017.04.08-01.20.09:626][474]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.20.09:626][474]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.04.08-01.20.09:626][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.015556s)
+[2017.04.08-01.20.09:654][474]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.20.09:660][474]LogInit: FAudioDevice initialized.
+[2017.04.08-01.20.09:722][474]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.20.09:740][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.20.09
+[2017.04.08-01.20.09:742][474]LogWorld: Bringing up level for play took: 0.017589
+[2017.04.08-01.20.09:746][474]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.651
+[2017.04.08-01.20.09:746][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.20.21:908][931]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.20.21:908][931]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.20.22:950][ 56]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+
+[2017.04.08-01.20.22:950][ 56]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors2 out of bounds [0/0]!
+
+[2017.04.08-01.20.24:587][252]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.20.24:623][252]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.20.40:119][474]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.20.40:472][474]BlueprintEditorCompileResults: Info [3518.52] Compile of KnightOfLight successful! [in 353 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.20.41:236][491]LogSavePackage: Save=173.68ms
+[2017.04.08-01.20.41:237][491]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLight35712D4644492681A27FA4B462B7EF2B.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.20.41:240][491]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.20.53:887][454]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.20.54:829][454]BlueprintEditorCompileResults: Info [3532.87] Compile of KnightOfLight successful! [in 942 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.20.55:552][494]LogSavePackage: Save=170.09ms
+[2017.04.08-01.20.55:552][494]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLightE8E12F8942E84FF670164DBCE67BD328.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.20.55:554][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.22.29:655][879]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.22.30:680][879]BlueprintEditorCompileResults: Info [3628.72] Compile of KnightOfLight successful! [in 1,024 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.22.31:350][899]LogSavePackage: Save=176.67ms
+[2017.04.08-01.22.31:350][899]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLightC44196FC41B3CB2BF27AB38A38A9A879.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.22.31:354][899]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.22.33:381][ 36]LogSavePackage: Save=556.63ms
+[2017.04.08-01.22.33:381][ 36]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_1C92C405747339C4A933FB4BC3A5A0499.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-01.22.33:383][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-01.22.33:882][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.22.33:882][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.08-01.22.33:882][ 85]PIE: New page: PIE session: Level_1 (Apr 7, 2017, 4:22:33 PM)
+[2017.04.08-01.22.33:882][ 85]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1
+[2017.04.08-01.22.33:897][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014316s)
+[2017.04.08-01.22.33:897][ 85]LogAIModule: Creating AISystem for world Level_1
+[2017.04.08-01.22.33:897][ 85]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2017.04.08-01.22.33:897][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.015247s)
+[2017.04.08-01.22.33:923][ 85]LogInit: XAudio2 using 'Acer H236HL-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.08-01.22.33:929][ 85]LogInit: FAudioDevice initialized.
+[2017.04.08-01.22.33:977][ 85]LogWorld: Game class is 'SoulStrikerCampaign_C'
+[2017.04.08-01.22.33:993][ 85]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2017.04.07-21.22.33
+[2017.04.08-01.22.33:995][ 85]LogWorld: Bringing up level for play took: 0.016745
+[2017.04.08-01.22.33:999][ 85]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.397
+[2017.04.08-01.22.33:999][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.22.40:507][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.22.40:547][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1.Level_1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1' with GeneratedClass '/Game/Maps/Level_1.Level_1_C' with ClassGeneratedBy '/Game/Maps/Level_1.Level_1:PersistentLevel.Level_1'
+[2017.04.08-01.22.53:360][840]BlueprintLog: New page: Compile KnightOfLight
+[2017.04.08-01.22.54:487][840]BlueprintEditorCompileResults: Info [3652.53] Compile of KnightOfLight successful! [in 1,126 ms] (/Game/ThirdPersonBP/Blueprints/KnightOfLight.KnightOfLight)
+[2017.04.08-01.22.55:395][876]LogSavePackage: Save=172.28ms
+[2017.04.08-01.22.55:395][876]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/KnightOfLightC3CA56BB425847E9EED3509107EE14BE.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset'
+[2017.04.08-01.22.55:398][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/ThirdPersonBP/Blueprints/KnightOfLight.uasset
+[2017.04.08-01.27.41:958][424]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/bluePrints/AI_Turret/turret_top_Anim.turret_top_Anim
+[2017.04.08-01.28.13:051][151]LogSavePackage: Save=594.36ms
+[2017.04.08-01.28.13:051][151]LogSavePackage: Moving '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Saved/Level_1BC1815AF41C1FCE98E6DC28C2E55B246.tmp' to '../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap'
+[2017.04.08-01.28.13:054][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steve/Documents/SSRepository/Soul-Striker-Main/Soul Striker/Content/Maps/Level_1.umap
+[2017.04.08-01.29.14:863][904]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.08-01.29.15:200][905]Cmd: QUIT_EDITOR
+[2017.04.08-01.29.15:936][905]LogExit: Preparing to exit.
+[2017.04.08-01.29.17:160][905]LogExit: Editor shut down
+[2017.04.08-01.29.17:164][905]LogExit: Transaction tracking system shut down
+[2017.04.08-01.29.19:491][905]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.08-01.29.19:500][905]LogExit: Object subsystem successfully closed.
+[2017.04.08-01.29.19:716][905]LogD3D11RHI: Shutdown
+[2017.04.08-01.29.19:717][905]LogD3D11RHI: CleanupD3DDevice
+[2017.04.08-01.29.19:982][905]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.08-01.29.20:868][905]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (218)
+[2017.04.08-01.29.20:868][905]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2017.04.08-01.29.20:868][905]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (216)
+[2017.04.08-01.29.20:868][905]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2017.04.08-01.29.20:874][905]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2017.04.08-01.29.20:874][905]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2017.04.08-01.29.20:890][905]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2017.04.08-01.29.20:903][905]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2017.04.08-01.29.20:944][905]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2017.04.08-01.29.20:944][905]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2017.04.08-01.29.20:944][905]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2017.04.08-01.29.20:989][905]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2017.04.08-01.29.20:997][905]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2017.04.08-01.29.21:007][905]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2017.04.08-01.29.21:023][905]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2017.04.08-01.29.21:023][905]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2017.04.08-01.29.21:023][905]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2017.04.08-01.29.21:023][905]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2017.04.08-01.29.21:023][905]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2017.04.08-01.29.21:040][905]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2017.04.08-01.29.21:040][905]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2017.04.08-01.29.21:040][905]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2017.04.08-01.29.21:064][905]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2017.04.08-01.29.21:064][905]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2017.04.08-01.29.21:064][905]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2017.04.08-01.29.21:091][905]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2017.04.08-01.29.21:096][905]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2017.04.08-01.29.21:096][905]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2017.04.08-01.29.21:096][905]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2017.04.08-01.29.21:096][905]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2017.04.08-01.29.21:096][905]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2017.04.08-01.29.21:121][905]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2017.04.08-01.29.21:141][905]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2017.04.08-01.29.21:147][905]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2017.04.08-01.29.21:147][905]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2017.04.08-01.29.21:155][905]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2017.04.08-01.29.21:155][905]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2017.04.08-01.29.21:808][905]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2017.04.08-01.29.22:001][905]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2017.04.08-01.29.22:001][905]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2017.04.08-01.29.22:001][905]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2017.04.08-01.29.22:006][905]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2017.04.08-01.29.22:006][905]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2017.04.08-01.29.22:015][905]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2017.04.08-01.29.22:025][905]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2017.04.08-01.29.22:032][905]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2017.04.08-01.29.22:045][905]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2017.04.08-01.29.22:051][905]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2017.04.08-01.29.22:057][905]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2017.04.08-01.29.22:063][905]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2017.04.08-01.29.22:063][905]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2017.04.08-01.29.22:063][905]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2017.04.08-01.29.22:073][905]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2017.04.08-01.29.22:073][905]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2017.04.08-01.29.22:073][905]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2017.04.08-01.29.22:090][905]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2017.04.08-01.29.22:090][905]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2017.04.08-01.29.22:098][905]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2017.04.08-01.29.22:119][905]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2017.04.08-01.29.22:128][905]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2017.04.08-01.29.22:147][905]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2017.04.08-01.29.22:149][905]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2017.04.08-01.29.22:223][905]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2017.04.08-01.29.22:228][905]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2017.04.08-01.29.22:237][905]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2017.04.08-01.29.22:250][905]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2017.04.08-01.29.22:250][905]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2017.04.08-01.29.22:261][905]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2017.04.08-01.29.22:261][905]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2017.04.08-01.29.22:319][905]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2017.04.08-01.29.22:319][905]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2017.04.08-01.29.22:319][905]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2017.04.08-01.29.22:333][905]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2017.04.08-01.29.22:342][905]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2017.04.08-01.29.22:351][905]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2017.04.08-01.29.22:371][905]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2017.04.08-01.29.22:385][905]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2017.04.08-01.29.22:391][905]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2017.04.08-01.29.22:391][905]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2017.04.08-01.29.22:391][905]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2017.04.08-01.29.22:391][905]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2017.04.08-01.29.22:391][905]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2017.04.08-01.29.22:391][905]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2017.04.08-01.29.22:391][905]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2017.04.08-01.29.22:391][905]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2017.04.08-01.29.22:399][905]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2017.04.08-01.29.22:407][905]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2017.04.08-01.29.22:407][905]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2017.04.08-01.29.22:490][905]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2017.04.08-01.29.22:508][905]LogModuleManager: Shutting down and abandoning module SubstanceEditor (129)
+[2017.04.08-01.29.22:531][905]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2017.04.08-01.29.22:531][905]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2017.04.08-01.29.22:531][905]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2017.04.08-01.29.22:531][905]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2017.04.08-01.29.22:531][905]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2017.04.08-01.29.22:532][905]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2017.04.08-01.29.22:532][905]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2017.04.08-01.29.22:555][905]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2017.04.08-01.29.22:556][905]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2017.04.08-01.29.22:556][905]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2017.04.08-01.29.22:588][905]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2017.04.08-01.29.22:588][905]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2017.04.08-01.29.22:588][905]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2017.04.08-01.29.22:588][905]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2017.04.08-01.29.22:588][905]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2017.04.08-01.29.22:614][905]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2017.04.08-01.29.22:614][905]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2017.04.08-01.29.22:633][905]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2017.04.08-01.29.22:633][905]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2017.04.08-01.29.22:633][905]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2017.04.08-01.29.22:645][905]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2017.04.08-01.29.22:666][905]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2017.04.08-01.29.22:688][905]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2017.04.08-01.29.22:698][905]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2017.04.08-01.29.22:698][905]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2017.04.08-01.29.22:707][905]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2017.04.08-01.29.22:707][905]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2017.04.08-01.29.22:714][905]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2017.04.08-01.29.22:731][905]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2017.04.08-01.29.22:743][905]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2017.04.08-01.29.22:752][905]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2017.04.08-01.29.22:766][905]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2017.04.08-01.29.22:771][905]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2017.04.08-01.29.22:803][905]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2017.04.08-01.29.22:903][905]LogModuleManager: Shutting down and abandoning module SubstanceCore (94)
+[2017.04.08-01.29.22:937][905]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.04.08-01.29.22:937][905]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.04.08-01.29.22:949][905]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.04.08-01.29.22:949][905]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.04.08-01.29.22:949][905]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.04.08-01.29.22:972][905]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.04.08-01.29.22:972][905]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.04.08-01.29.22:972][905]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.04.08-01.29.22:972][905]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.04.08-01.29.22:972][905]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.04.08-01.29.22:992][905]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.04.08-01.29.22:992][905]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.04.08-01.29.22:992][905]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.04.08-01.29.23:020][905]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.04.08-01.29.23:020][905]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.04.08-01.29.23:028][905]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.04.08-01.29.23:051][905]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.04.08-01.29.23:051][905]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.04.08-01.29.23:051][905]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.04.08-01.29.23:075][905]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.04.08-01.29.23:119][905]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.04.08-01.29.23:119][905]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.04.08-01.29.23:141][905]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.04.08-01.29.23:141][905]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.04.08-01.29.23:151][905]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.04.08-01.29.23:151][905]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.04.08-01.29.23:152][905]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.04.08-01.29.23:152][905]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.04.08-01.29.23:152][905]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.04.08-01.29.23:152][905]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.04.08-01.29.23:168][905]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.04.08-01.29.23:333][905]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.04.08-01.29.23:333][905]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.04.08-01.29.23:333][905]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.04.08-01.29.23:348][905]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.04.08-01.29.23:449][905]LogDerivedDataCache: Shutdown
+[2017.04.08-01.29.23:449][905]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.04.08-01.29.23:456][905]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.04.08-01.29.23:468][905]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.04.08-01.29.23:468][905]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.04.08-01.29.23:479][905]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.04.08-01.29.23:479][905]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.04.08-01.29.23:479][905]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.04.08-01.29.23:480][905]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.04.08-01.29.23:480][905]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.04.08-01.29.23:480][905]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.04.08-01.29.23:480][905]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.04.08-01.29.23:480][905]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.04.08-01.29.23:497][905]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.04.08-01.29.23:516][905]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.04.08-01.29.23:516][905]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.04.08-01.29.23:516][905]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.04.08-01.29.23:516][905]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.04.08-01.29.23:516][905]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.04.08-01.29.23:516][905]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.04.08-01.29.23:516][905]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.04.08-01.29.23:516][905]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.04.08-01.29.23:517][905]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.04.08-01.29.23:517][905]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.04.08-01.29.23:517][905]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.04.08-01.29.23:517][905]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.04.08-01.29.23:525][905]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.04.08-01.29.23:525][905]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.04.08-01.29.23:525][905]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.04.08-01.29.23:533][905]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.04.08-01.30.14:102][905]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.04.08-01.30.14:128][905]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.04.08-01.30.14:160][905]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.04.08-01.30.14:160][905]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.08-01.30.14:176][905]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.08-01.30.14:176][905]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.08-01.30.14:176][905]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.08-01.30.14:227][905]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.08-01.30.14:244][905]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.08-01.30.14:244][905]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.08-01.30.14:244][905]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.08-01.30.14:244][905]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.08-01.30.14:244][905]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.08-01.30.14:244][905]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.08-01.30.14:259][905]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.08-01.30.14:259][905]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.08-01.30.14:259][905]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.08-01.30.14:469][905]LogExit: Exiting.
+[2017.04.08-01.30.14:491][905]Log file closed, 04/07/17 21:30:14
